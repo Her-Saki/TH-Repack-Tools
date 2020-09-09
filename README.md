@@ -1,2 +1,2 @@
 # TH-Repack-Tools
-Repack tools.
+Repack tools for To Heart 97 Translation Project.

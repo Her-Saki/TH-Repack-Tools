@@ -1,0 +1,41 @@
+Morning events:
+3/3 	Second floor > A > A
+3/6 	Go home > A > A
+3/10 	Second floor > A > A
+3/11	First floor > A > C
+3/12	Leave school > A > A
+3/22	Leave school > A > A
+4/9	 	Leave school > A > A
+4/10	First floor > A > B
+4/11	First floor > A > A > A
+4/14	Leave school > A > C
+4/18	Second floor > A > B
+4/22	Second floor > A > C
+4/23	First floor > A > B
+4/25	Leave school > A
+4/30	Second floor > A > A
+5/1		Go home > A
+5/2		First floor > A (You shouldn't see this one. It means you've done something wrong).
+
+Special events:
+3/3		C: I feel SO lonely!
+3/11	Nothing
+3/12	Nothing
+3/13	Nothing
+3/13	A: Let's go together	12:35
+3/14	A: Easy peasy			10:20
+3/19	A: Flawless				9:25
+3/21	Nothing
+4/7		Nothing
+4/9		A: Cool introduction	9:05
+4/10	B: Steady				11:15
+4/12	D: I'll do it myself	11:25
+4/14	B: Screw Tomoko			13:45
+4/15	A: No way in hell		10:20
+4/15	A: Akari is mine		11:15
+4/17	A: Akari's likely my GF	11:15
+4/23	A: I guess she's my GF	9:25
+4/28	A: Kiss her
+5/1		A: Let's go shopping	9:25
+5/1		A: Let's go to my room	
+5/3		A: I want to meet her

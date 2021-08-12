@@ -1,0 +1,332 @@
+;;///////////////////////////////////////////////////
+ScenarioStart 0A00 0961
+*00
+End20
+
+*01
+DisplayMessage 00
+DisplayMessage 01
+DisplayMessage 02
+DisplayMessage 03
+DisplayMessage 04
+DisplayMessage 05
+DisplayMessage 06
+DisplayMessage 07
+DisplayMessage 08
+DisplayMessage 09
+DisplayMessage 0a
+DisplayMessage 0b
+DisplayMessage 0c
+DisplayMessage 0d
+DisplayMessage 0e
+DisplayMessage 0f
+DisplayMessage 10
+DisplayMessage 11
+DisplayMessage 12
+Return2D
+End20
+
+*02
+EndFF
+ScenarioEnd
+
+*00
+DateSetting 08
+StartBGM 05
+LoadBG2 1b 0a 0a
+` 8th of March, Saturday.@
+` I feel like I was gotten up the very moment I fell asleep.@
+` My will to leave the futon decreases...\
+
+*01
+LoadPCM 1b
+StartPCM 01 00
+` *Ding-Dong!*@
+` The doorbell is ringing...@
+` Could it be Akari...?
+WaitPage
+WaitPCM
+EndTextBlk
+
+*02
+StartPCM 01 00
+` *Ding-|
+WaitPCM
+StartPCM 01 00
+` Ding-Dong!*@
+` Ugh...@ Stop mashing that damn button...@
+WaitPCM
+StartPCM 01 00
+` *Ding-|
+WaitPCM
+StartPCM 01 00
+` Ding-|
+WaitPCM
+StartPCM 01 00
+` Ding-|
+WaitPCM
+StartPCM 01 00
+` Ding-Dong!*@
+` I'm getting up, so just stop, please...@
+` I slowly slip out of the futon.
+WaitPage
+LoadBG2 1c 0a 0a
+EndTextBlk
+
+*03
+WaitPCM
+StartPCM 01 00
+` *Ding-|
+WaitPCM
+StartPCM 01 00
+` Ding-Dong!*@
+` I insert the key, and push the door.@
+` "May I---"@
+` "Um, please show me the way!"@
+` All of a sudden, a girl steps in the entrance.@
+` "Huh?"
+WaitPage
+Nazo44 00 00
+FadeBGM
+WaitForFadeBGM
+PauseBGM
+WaitPCM
+StopPCM
+StartBGM 0f
+ChangeCharacter 02 1e 1a
+EndTextBlk
+
+*04
+` "Um...@ Do you perhaps happen to know the address of Mr. Satake?@ He lives near this area."@
+` "Mr. Satake?"@
+` I ask her back, and notice she's wearing my school's uniform.@
+ChangeCharacter 02 1e 20
+` "Oh!@ Hiroyuki?!"@
+` She suddenly exclaims as if she had noticed something as well.@
+` She even knows my name...@ How?\
+
+*05
+` "Wait, I think I've seen you---"@
+` Before I finish my sentence, the girl gets in a flap...@
+` "Umm...@ I'm really sorry!"@
+ChangeCharacter 02 ff ff
+` And all of a sudden, she turns her back, and runs away.
+WaitPage
+Vibrato 15
+EndTextBlk
+
+*06
+` Ouch, that must have hurt...@
+` It looks like she dashed back without realizing the door was closed.@
+` She ended up bumping against it with all her body.@
+` "Are you okay...?"
+WaitPage
+ChangeCharacter 02 1e 15
+EndTextBlk
+
+*07
+` "*Sobs...*@ I fell over again..."@
+` That "again" makes me wonder how many times she had to go through this pain.@
+` As I think about it...@
+` "Hey, you're a freshman, aren't you?@ I think I've seen you before."@
+` I finish my line.\
+
+*08
+` At that moment, as if she needed to remember it...@
+ChangeCharacter 02 1e 1a
+` "Umm, my name is Rio Hinayama.@ I'm from 1-D class."@
+` She answers, as her words mix with a bitter smile.@
+` "Heh...@ Rio from 1-D, huh?@ Well, my name is---"@
+` "I know...@ I was just surprised that THIS happened to be your house...| and then, well..."@
+` "Still, how do you know my name in first place?"@
+` "Um...@ Just because."@
+` "Haha!@ Just because, huh...?"@
+` I smile awkwardly.\
+
+*09
+` "Um...@ I'm sorry for calling so early.@ You were still sleeping, weren't you?"@
+` Rio says apologetically as she glances at my pajamas.@
+` "Nah, don't worry about that.@ I mean, this is the time where one usually wakes up, isn't it?"@
+` "You're right...@
+ChangeCharacter 02 1e 12
+` You're completely right!"@
+` After hearing my opinion, she suddenly becomes cheerful.@
+` I guess she tends to jump to the wrong conclusions...\
+
+*0a
+` "So, what did you say at the beginning?@ About Mr. Satake or something..."@
+ChangeCharacter 02 1e 11
+` "Oh, yes...@ Isn't his residence nearby?"@
+` "By Satake...| do you mean the tax advisor?"@
+` "Um...@ I guess so."@
+` "In that case, it's three doors from my house, on the right."@
+` "I see...@ That's great!"@
+` Rio cheers playfully.@
+` She's quite a lively girl...\
+
+*0b
+` "But still, what business do you have with Mr. Satake so early in the morning?"@
+` "Delivery service."@
+` "What kind of delivery?"@
+` "Newspapers."@
+` "Newspapers...@ Are you a delivery girl?@ Like, as part-time job?"@
+` "Yes."@
+` "But it's already 7:30 or so.@ Why are you delivering at this hour?"
+WaitPage
+ChangeCharacter 02 1e 1a
+EndTextBlk
+
+*0c
+` "You see...@ I had to deliver in a new block from today on... but as my sense of direction isn't exactly good, I just got lost..."@
+` "So you were looking for Mr. Satake from before daybreak?!"@
+` "Yes, that's right..."@
+` "That's the most hardcore bad sense of direction I've ever seen..."
+WaitPage
+ChangeCharacter 02 1e 12
+EndTextBlk
+
+*0d
+` "But now that you showed me the way, I'm saved!"@
+` "You're welcome.@ Anyway, you should go deliver Mr. Satake his newspaper.@ He must be waiting for it by now."@
+` "Yes!@ If you'll excuse me..."@
+` "Take care."@
+ChangeCharacter 02 ff ff
+LoadPCM 35
+StartPCM 01 00
+` This time Rio leaves the entrance without any accidents.
+WaitPage
+WaitPCM
+EndTextBlk
+
+*0e
+StartPCM 01 00
+` Or so I thought... because she comes back here.@
+ChangeCharacter 02 1e 11
+` "Um...@ Thank you for helping me!"@
+` "Yeah, no problem."@
+` "Alright, I'll be going now!"@
+ChangeCharacter 02 ff ff
+WaitPCM
+StartPCM 01 00
+` While she's certainly careless, she seems to posses a strong sense of duty...@
+WaitPCM
+StartPCM 01 00
+` But before I'm about to return to my room, I turn back and open the door again---@
+ChangeCharacter 02 1e 19
+` "Umm...@ How many doors to the right?"@
+` "Three doors."
+WaitPage
+ChangeCharacter 02 1e 1a
+EndTextBlk
+
+*0f
+` "Ahaha!@ Right, that's it."@
+` "Tch...@ Put your memory to work already."@
+` "I'm so sorry...@ Well, I'll be going now!"@
+` "Three doors, remember."@
+` "Yes!"@
+ChangeCharacter 02 ff ff
+WaitPCM
+StartPCM 01 00
+` I close the door, and everything becomes peaceful again.@
+` Rio Hinayama, huh...?@
+` I somehow feel she's the type who can't be left alone without meddling in trouble.
+WaitPage
+WaitPCM
+StopPCM
+FadeBGM
+FadeInBGM 07
+LoadBG2 1a 00 00
+EndTextBlk
+
+*10
+` "Hey, Akari."@
+ChangeCharacter 02 00 01
+` "What is it, Yuki?"@
+` "Today I met a delivery girl from our school."@
+` "A delivery girl?@ Do I know her?"@
+` "Her name is Rio Hinayama, from D class."\
+
+*11
+` "Hinayama...?@ Hmm...@ The 1-D classroom is pretty far from mine, so I'm not really sure.@ Perhaps I could know better if I see her personally."@
+` "So you don't know.@ Well, whatever.@ Thing is, that that girl got lost and has been delivering up until some minutes ago."@
+ChangeCharacter 02 00 03
+` "Huh?@ For real?"@
+` And so I tell Akari about what happened this morning.\
+
+*12
+` "It looks like this was her first time working in this block, but still, you don't just wander around till morning."@
+` "What if she kept wandering for four hours or so?"@
+` "Perhaps she was wearing her uniform knowing that something like that could happpen."@
+ChangeCharacter 02 00 04
+` "She sounds like a pretty hard-working girl."@
+` "No, she's actually so careless you wouldn't believe it."
+WaitPage
+LoadVisualScene 00 0a 0b
+FadeBGM
+WaitForFadeBGM
+PauseBGM
+EndTextBlk
+TextEnd
+
+;;///////////////////////////////////////////////////
+ScenarioStart 0A01 0962
+*00
+End20
+
+*01
+FlagAdd62 27 01
+FadeBGM
+WaitForFadeBGM
+PauseBGM
+DisplayMessage 00
+DisplayMessage 01
+DisplayMessage 02
+LoadBG 01
+Effect 05
+Nazo23 1e
+Return2D
+End20
+
+*02
+EndFF
+ScenarioEnd
+
+*00
+StartBGM 06
+LoadBG2 02 0a 0a
+` "Hi, Hiroyuki."@
+ChangeCharacter 02 09 01
+` Before homeroom, Masashi comes to my seat.@
+` "What's up, Masashi?"@
+` "Are you into this stuff?"@
+` Masashi then takes out a small electronic toy from his pocket, similar to an egg.\
+
+*01
+` "Wuzzat?@ A Battlewatch...?"@
+` "Yes."@
+` Battlewatch is a simulation-styled game where you raise a warrior to fight with other players' warriors.@
+` Its simple yet deep style seems to have won over the hearts of elementary schoolers, so nowadays it's a super-popular item that sells out everywhere.\
+
+*02
+` "Why do you have something like this?"@
+ChangeCharacter 02 09 02
+` "My dad got one by chance, so he gave it to me thinking it was the latest fashion, even though it's only mainstream among elementary schoolers..."@
+` Masashi's expression seems to say "Thanks for nothing."@
+` "I couldn't be less interested.@ I'm no elementary schooler, you know."@
+ChangeCharacter 02 09 03
+` "Hm...@ So what should I do with this...?"@
+` Masashi seems to be in a pinch.@
+` "Didn't your father give it to you?@ Just keep it.@ I bet it doesn't occupy too much space in your room."@
+ChangeCharacter 02 09 02
+` "You're right.@ Okay, I'll keep it."@
+` "Yeah, that's the wise choice."
+WaitPage
+Nazo44 00 00
+Nazo79
+Wait 1e
+ClearCharacter 03
+Nazo44 02 03
+Wait 1e
+EndTextBlk
+TextEnd

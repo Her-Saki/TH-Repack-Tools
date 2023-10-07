@@ -1,0 +1,289 @@
+;;///////////////////////////////////////////////////
+ScenarioStart 0700 0738
+*00
+End20
+
+*01
+FadeBGM
+WaitForFadeBGM
+PauseBGM
+Nazo6C 17
+DisplayMessage 00
+DisplayMessage 01
+DisplayMessage 02
+DisplayMessage 03
+DisplayMessage 04
+DisplayMessage 05
+DisplayMessage 06
+DisplayMessage 07
+DisplayMessage 08
+DisplayMessage 09
+DisplayMessage 0a
+DisplayMessage 0b
+DisplayMessage 0c
+DisplayMessage 0d
+DisplayMessage 0e
+DisplayMessage 0f
+DisplayMessage 10
+DisplayMessage 11
+DisplayMessage 12
+Choice 13 03 14 00 15 05 16 0a
+Nazo6B
+Jump 07 01 01
+Nazo6B
+Jump 07 02 01
+Nazo6B
+Jump 07 03 01
+End20
+
+*02
+EndFF
+ScenarioEnd
+
+*00
+StartBGM 07
+LoadCharacterAndBg 01 00 01 02 0a 0a
+` "Me pone feliz que vayamos a pasar todo el año juntos."@
+` Dice Akari sonriendo.@
+` "¿Y ahora qué?"@
+` Apoyando mi mentón en mi mano sobre el escritorio, doy un suspiro de fastidio.@
+` "Tú debes estar igual de harta de ver mi cara como yo lo estoy de ver la tuya."@
+` "No, todavía no me he cansado.@ Voy a verla durante todo este año hasta que me aburra."@
+` "... ¿Pero qué estás diciendo?@ Idiota."\
+
+*01
+` El segundo día desde que empezamos segundo año.@
+` Ahora que lo pienso, ¿cuántos años habrán pasado desde que compartí salón con Akari?@
+` Creo que la última vez fue en primero de secundaria baja.@
+` Hemos asistido a la misma escuela desde jardín de niños, pero solamente estuvimos en la misma clase dos o tres veces.\
+
+*02
+` "Oye, ¿quieres que volvamos a casa juntos?"@
+` Dice Akari entrecerrando los ojos.@
+` "¿Eh?@ ¿Por qué?"@
+ChangeCharacter 01 00 03
+` "Pues...@ Por nada en especial..."@
+` Akari sonríe incómodamente, y entonces...
+WaitPage
+ClearScreen 00 00
+FadeBGM
+WaitForFadeBGM
+PauseBGM
+StartBGM 0a
+LoadThreeCharacters 00 04 01 02 ff ff 01 00 01
+EndTextBlk
+
+*03
+` "¡Oigan, oigan, escuchen esto!@ ¡Traigo GRANDES noticias!"@
+` De pronto, Shiho entra corriendo (y gritando escandalosamente) al salón.@
+` "¡¿"Grandes noticias"?!@ ¡Seguro que es otro de tus estúpidos chismes!"@
+ChangeCharacter 00 04 03
+` "¡Ugh, ya cállate!@ ¡Si te digo que es la bomba del año, es porque lo es!@
+ChangeCharacter 00 04 01
+` ¡Ah, Masashi!@ ¡Ven a escuchar tú también!"@
+` Shiho invita a Masashi quien está cerca.
+WaitPage
+ChangeCharacter 01 09 01
+EndTextBlk
+
+*04
+` "¿Qué?"@
+` Pregunta Masashi confundido.@ 
+` "¡Escuchen, escuchen!@ ¡Me enteré de una primicia absolutamente demencial!"@
+` Shiho infla su pecho con orgullo.@
+` Si se tomó la molestia de venir hasta nuestro salón a contarnos, "SEGUUURO" debe ser un notición.@
+` ... ¿Eh?@ Ahora que lo pienso...\
+
+*05
+` "Shiho, ¿a qué clase vas tú?"@
+ChangeCharacter 00 04 03
+` "¿Eh?@ ¿Mi clase?@ ¿Cómo has podido olvidarla?@ ¡Es la "A", justo al lado!@ Tsk, ¡tienes la memoria de una gallina!"@
+` "Oye, solamente lo olvidé.@ A cualquiera le puede pasar."@
+` "Sí, ¡a eso se le llama memoria de gallina!"@
+` "Uuuh..."@
+ChangeCharacter 01 09 03
+` "Por cierto,| ¿qué era lo que ibas a contarnos?"@
+` Masashi retoma la conversación sonriendo con incomodidad.
+WaitPage
+ChangeCharacter 00 04 02
+EndTextBlk
+
+*06
+` "Ah, cierto.@ Ese notición se trata de..."@
+ChangeCharacter 01 09 01
+` "¡Hum-Hum!"@
+` Los tres acercamos la cara.@
+` "¡Un fenómeno parnormal que podría salir en "Los expedientes secretos X"!"@
+` "¿Qué cosa?@ ¿Desenterraron el cadáver de un alien en la escuela?"@
+ChangeCharacter 00 04 13
+` "¡Lo siento, pero no!@ ¡Aunque me gusta tu imaginación!@ ¡Vas por el buen camino!"@
+` Shiho chasquea los dedos como si lo lamentara.@
+` ¡¿Quién te crees que eres, la conductora de un programa de preguntas y respuestas?!
+WaitPage
+ChangeCharacter 01 09 02
+EndTextBlk
+
+*07
+` "¿Un estudiante vino montado en un ovni a la escuela?"@
+` Dice Masashi.@
+` "¡Ceeerca!@ ¡Tiene que ver con una estudiante!"@
+ChangeCharacter 01 00 03
+` "Ey, ¿en qué momento se convirtió esto en un cuestionario?"@
+` Dice Akari con una sonrisa forzada.@
+LoadThreeCharacters 00 04 05 02 ff ff 01 00 01
+` "Ah, claro, milper."@
+` Shiho ríe sacando la lengua.
+WaitPage
+ChangeCharacter 00 04 02
+EndTextBlk
+
+*08
+` "Bueno, les diré la verdad.@ Yo todavía sigo sin poder creerlo."@
+` Shiho baja un poco el tono de su voz, y comienza a contarnos.@
+` Ella siempre está bien informada gracias a sus amigas.@
+` Como hasta ella misma está emocionada, no podemos evitar mantenernos a la expectativa de su noticia.\
+
+*09
+` "¡Una estudiante increíble se transfirió a nuestra escuela!"@
+` "¿Increíble...?"@
+` Dice Akari.@
+` "Así es.@ Después de todo..."@
+` "Hum-Hum", todos nos asomamos.@
+` ¿Qué será?@
+` ¿Una celebridad se inscribió aquí o algo así?@
+` No, dijo que "podría salir en "Los expedientes secretos X"", así que seguro se trata de algo mucho más loco.\
+
+*0a
+` "Después de todo..."@
+` "¿Después de todo...?"@
+` "Según los rumores..."@
+` "¿Según los rumores...?"@
+` "Se van a caer de culo."@
+` "¡Habla de una vez!"
+WaitPage
+ChangeCharacter 00 04 05
+EndTextBlk
+
+*0b
+` "¡Es una esper!"@
+ChangeCharacter 01 00 0a
+` "¡¿EEEEH?!"@
+` Los tres exclamamos sorprendidos.@
+` Los "¡¿EEEEH?!" de Akari y Masashi fueron de pura sorpresa, pero mi "¡¿EEEEH?!" fue de burla.@
+` "¿Por "esper" te refieres a que puede doblar cucharas?"@
+` Le digo con incredulidad.@
+` "¡No, no!@ ¡Ella no es un fraude con una habilidad tan inútil!@ ¡Su poder es más asombroso!@ ¡Pista: Nostradamus!"@
+` ¿Por qué tanta obsesión con los cuestionarios?
+WaitPage
+ChangeCharacter 01 09 01
+EndTextBlk
+
+*0c
+` "Nostradamus...@ ¿Es una clarividente?"@
+` Dice Masashi, que aunque no lo parezca sabe mucho sobre el tema.@
+` "¡Ding-Dong!@ ¡Correcto!"@
+` Shiho aplaude.@
+ChangeCharacter 01 00 02
+` "Umm...@ ¿Qué significa eso?"@
+` Pregunta Akari desconcertada.@
+ChangeCharacter 01 09 02
+` "Es un poder con el que predices lo que ocurrirá en el futuro."@
+` Explica Masashi.@
+ChangeCharacter 01 00 01
+` "... ¿Como la adivinación?"@
+` "¡No, nada que ver!@ ¡Es algo mucho, muuuucho más fascinante!"@
+` Dice Shiho inclinándose hacia adelante.
+WaitPage
+ChangeCharacter 00 04 02
+EndTextBlk
+
+*0d
+` "¡Los incidentes que predice se cumplen a la perfección!@ ¡Ella sabe quién tendrá un accidente de tráfico, o a quién se le incendiará la casa!"@
+ChangeCharacter 01 00 0b
+` "¿En serio?"@
+` Akari vacila entre creer y dudar.@
+` "Sí, es en serio.@ Una chica que iba con ella a su anterior escuela me lo contó, así que es verdad.@ Resulta que esa chica...@ Ah,| casi lo olvido.@ La chica en cuestión se llama Kotone Himekawa.@ Dicen que despertó sus poderes en secundaria baja, ¡y desde entonces ha estado prediciendo los accidentes de sus amigos y conocidos!"\
+
+*0e
+` "Haa...@ Qué estupidez."@
+` Digo con evidente desgano.@
+` Aún no terminó su relato, pero apuesto a que el 80% es puro cuento.@
+LoadThreeCharacters 00 04 03 02 ff ff 01 00 01
+` "¡¿Cómo?!@ ¡¿Acaso no me crees?!"@
+` "Por supuesto.@ Jamás me tragaría ese tipo de historia."@
+` Ya es suficiente con Kurusugawa.@
+` "Ya verás cuán poco te dura el escepticismo.@ ¡Esta historia no termina aquí!"@
+` "¿Qué?@ ¿Aún hay más?"
+WaitPage
+ChangeCharacter 00 04 02
+EndTextBlk
+
+*0f
+` "Está bien.@ Te lo contaré."@
+` Shiho sonríe de forma sugestiva y osada.@
+` "Todos los años, en primavera, la escuela hace una ceremonia de ingreso a secundaria alta como la que tuvimos nosotros el año pasado, ¿cierto?"@
+` "¿Esa que montan en el gimnasio?"@
+` "Sí, esa misma.@ Jujuju, ¿te has enterado?@ Hubo un accidente en la ceremonia de este año."@
+` "¿Un accidente?"@
+` "Sí."@
+ChangeCharacter 01 09 01
+` "... Ah, ¿te refieres a...?"@
+` Masashi se mete en la conversación.\
+
+*10
+` "¿Hablas de ese accidente...| donde el director casi sale lastimado luego de que una lámpara cayera del techo del escenario?"@
+ChangeCharacter 00 04 05
+` "¡Sí, exactamente!@ ¡Ding-Dong-Ding-Dong!"@
+` "¿Y eso?"@
+ChangeCharacter 01 00 02
+` "Ah, yo también escuché al respecto..."@
+` Hasta Akari se involucra.@
+` "Afortunadamente, el director salió ileso."
+WaitPage
+ChangeCharacter 00 04 02
+EndTextBlk
+
+*11
+` "Claro, pero se salvó porque la chica esper le avisó de antemano que la lámpara caería, y justo antes de que sucediera, le gritó "¡Cuidado!"."@
+` "Me huele a mentira..."
+WaitPage
+ChangeCharacter 00 04 03
+EndTextBlk
+
+*12
+` "¡Que no es mentira!@ ¡Sucedió en plena ceremonia!@ ¡Había un montón de estudiantes con sus familias, y Himekawa predijo algo de vida o muerte enfrente de todos ellos!@
+ChangeCharacter 00 04 02
+` Y al final, el director no se hizo ni un rasguño, todo gracias a Himekawa."@
+` Shiho me mira como diciendo "¿Qué tal?"@
+` "¿Me vas a decir que aún no lo crees?"\
+
+*13
+` Hmm...@
+` Una chica esper, ¿eh?
+EndTextBlk
+
+*14
+SetTextHOffset 06
+CharacterDrawSpeed 00
+` A. No creo en poderes sobrenaturales.
+EndTextBlk
+
+*15
+SetTextHOffset 06
+CharacterDrawSpeed 00
+` B. Sí, es verdad que los misterios existen.
+EndTextBlk
+
+*16
+SetTextHOffset 06
+CharacterDrawSpeed 00
+` C. ¿No habrá sido un truco que preparó?
+NewLine
+EndTextBlk
+
+*17
+` (Kotone meeting - Intro)
+` 9-4, WED, MORNING
+` Classroom
+` Akari - Stand up\
+TextEnd

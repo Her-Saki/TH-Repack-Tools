@@ -1,0 +1,96 @@
+*00
+Text "「じつは、そのコが仕組んだトリックとか？」"
+WaitKey
+NewLine
+ChangeCharacter 00 04 03
+Text "「…なんでそうなんのよ」"
+WaitKey
+NewLine
+Text "「だって、超能力なんて嘘っぽいじゃねーか。"
+WaitKey
+Text "きっとなにか仕掛けがあったんだと思うな、オレは」"
+WaitKey
+NewLine
+ChangeCharacter 01 09 01
+Text "「あらかじめ、その子が照明に細工をしてたとか？」"
+WaitKey
+NewLine
+Text "　雅史が訊いた。"
+WaitKey
+NewLine
+Text "「ま、ひとつの可能性だけどな。"
+WaitKey
+Text "でも、そうでもしないと、ただの偶然じゃ、とても説明できないだろ？」"
+WaitKey
+NewLine
+Text "「それこそ嘘っぽいって。"
+WaitKey
+Text "『なんとか少年の事件簿』じゃあるまいし～」"
+WaitKey
+NewLine
+Text "　志保が小馬鹿にするように笑った。"
+WaitPage
+EndTextBlk
+
+*01
+Text "「だからって、超能力はねーだろ。"
+WaitKey
+Text "それこそマンガの世界だっつーの。"
+WaitKey
+Text "たしかさ、有名な超能力者のユリ…なんとかも、結局インチキだったんだ」"
+WaitKey
+NewLine
+ChangeCharacter 00 04 06
+Text "「だからって、その子もインチキだとは限らないじゃないの！」"
+WaitKey
+NewLine
+Text "「まあ、オレの目の前で予言を的中させてくれりゃ、信じてやってもいいけどな。"
+WaitKey
+Text "ホレ、連れてこい」"
+WaitKey
+NewLine
+Text "「あんたが自分で連れてくりゃいいじゃない！」"
+WaitKey
+NewLine
+ChangeCharacter 00 ff ff
+Text "　志保はムスッとした顔で去っていった。"
+WaitPage
+LoadThreeCharacters 00 00 03 02 ff ff 01 09 03
+EndTextBlk
+
+*02
+Text "　あかりと雅史は顔を見合わせ、肩をすくめる。"
+WaitKey
+NewLine
+Text "「なんだよ、その、『まったくも～、ふたりはいつもいつもしょうがないな～』みたいな顔は…？」"
+WaitKey
+NewLine
+Text "　オレが言うと、ふたりは苦笑した。"
+WaitKey
+NewLine
+Text "「…で、でも、僕も"
+SayNameD8
+SayNameD9
+SayNameDA
+SayNameDB
+SayNameDC
+SayNameDD
+Text "と同じ意見だな。"
+WaitKey
+Text "いきなり超能力を信じろっていうのは無理があるよね」"
+WaitKey
+NewLine
+Text "「だろ～？」"
+WaitKey
+NewLine
+Text "　話はそれで終わり、結局、それっきり超能力少女のことは頭から離れてしまった。"
+WaitPage
+Nazo44 00 00
+Nazo79
+ClearCharacter 00
+Effect 05
+FadeBGM
+WaitForFadeBGM
+PauseBGM
+StartBGM 05
+EndTextBlk

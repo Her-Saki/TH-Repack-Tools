@@ -1,0 +1,87 @@
+*00
+Text "「不思議なこともあるもんだ」"
+WaitKey
+NewLine
+Text "　世の中には科学で解明できないことがたくさんあるもんだねぇ。"
+WaitKey
+NewLine
+ChangeCharacter 00 04 01
+Text "「でしょ？」"
+WaitKey
+NewLine
+Text "「だったら、オレの未来も当ててもらいたいもんだ」"
+WaitKey
+NewLine
+ChangeCharacter 00 04 03
+Text "「ちょっと～、占師じゃないんだからさぁ」"
+WaitKey
+NewLine
+Text "　志保は呆れた顔で言った。"
+WaitPage
+ChangeCharacter 00 04 05
+EndTextBlk
+
+*01
+Text "「ねえねえ、それよりさ、クラスはわかんないけど、後でみんなで、そのコを見に行ってみない？」"
+WaitKey
+NewLine
+ChangeCharacter 01 00 03
+Text "「…でも、迷惑だと思うよ」"
+WaitKey
+NewLine
+Text "　あかりが止める。"
+WaitKey
+NewLine
+ChangeCharacter 00 04 02
+Text "「そうかなぁ。"
+WaitKey
+Text "意外に本人も有名人みたいで気分いいかもよ？"
+WaitKey
+Text "　あっ、あたし、他のみんなにも話してくるから。"
+WaitKey
+Text "じゃ、まったねー！」"
+WaitKey
+NewLine
+Text "　そう言って、志保は教室から出ていった。"
+WaitPage
+ChangeCharacter 00 ff ff
+EndTextBlk
+
+*02
+Text "「騒がしいヤツ…」"
+WaitKey
+NewLine
+LoadThreeCharacters 00 09 01 02 ff ff 01 00 01
+Text "「どうする、"
+SayNameD8
+SayNameD9
+SayNameDA
+SayNameDB
+SayNameDC
+SayNameDD
+Text "？"
+WaitKey
+Text "　見に行く？」"
+WaitKey
+NewLine
+Text "　雅史が訊いた。"
+WaitKey
+NewLine
+Text "「行ったところで、そう都合よく超能力が見れるとは限らないだろ？"
+WaitKey
+Text "　…まあ、気が向いたらな」"
+WaitPage
+EndTextBlk
+
+*03
+Text "　だが結局、超能力少女の話題は、それっきり頭から離れてしまった。"
+WaitPage
+Nazo44 00 00
+Nazo79
+ClearCharacter 00
+Effect 05
+FadeBGM
+WaitForFadeBGM
+PauseBGM
+StartBGM 05
+EndTextBlk

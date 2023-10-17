@@ -1,0 +1,157 @@
+*00
+Text "「超能力なんて、信じられねー」"
+WaitKey
+NewLine
+Text "　オレは言った。"
+WaitKey
+NewLine
+ChangeCharacter 00 04 03
+Text "「どうしてよ？」"
+WaitKey
+NewLine
+Text "「だってさ、その話、むりやり超能力に結び付けてるようにしか聞こえないぜ？」"
+WaitKey
+NewLine
+Text "「でもその子、落ちることを予言してたのよ？」"
+WaitKey
+NewLine
+Text "「電灯が落ちそうなことに気付いてたんじゃねーの？"
+WaitKey
+Text "だから注目してたとか」"
+WaitKey
+NewLine
+Text "　オレは、くだらなそうに言った。"
+WaitPage
+EndTextBlk
+
+*01
+Text "「いいか？"
+WaitKey
+Text "　落ちるものを落ちるって予言するくらいなら、このオレにもできるぜ」"
+WaitKey
+NewLine
+Text "　オレは教室の入り口を指さし、"
+WaitKey
+NewLine
+Text "「あのドアは近いうちに開く」"
+WaitKey
+NewLine
+Text "　と予言してみせた。"
+WaitPage
+ChangeCharacter 00 04 06
+EndTextBlk
+
+*02
+Text "「そんなの当たり前じゃない！」"
+WaitKey
+NewLine
+Text "「だから、そういう当たり前のことを、お前らが勝手に盛り上げて、話を大きくしてるんだろ？」"
+WaitKey
+NewLine
+ChangeCharacter 00 04 03
+Text "　そう言うと、志保はムスッという表情をし、やがて、『はあ…』と、大きくため息をついた。"
+WaitKey
+NewLine
+Text "　そして、"
+WaitKey
+NewLine
+Text "「…わかったわよ」"
+WaitKey
+NewLine
+Text "　と言った。"
+WaitKey
+NewLine
+Text "「ようやく気付いたか」"
+WaitKey
+NewLine
+Text "「うん。あんたが典型的なリアリストってことにね」"
+WaitPage
+EndTextBlk
+
+*03
+Text "「なんだよ、それ」"
+WaitKey
+NewLine
+ChangeCharacter 00 04 08
+Text "「はあ～。"
+WaitKey
+Text "夢がないっていうかさー、ホント、つまんないヤツよね～、あんたって」"
+WaitKey
+NewLine
+Text "「あのなぁ、オレはただ…」"
+WaitKey
+NewLine
+Text "「はいはい、もういいわ。"
+WaitKey
+Text "この話はあんたに説明しても時間の無駄みたいね。"
+WaitKey
+Text "…もっと、頭の柔らかい人間に持ちかけるべきだったわ。──じゃ」"
+WaitKey
+NewLine
+ChangeCharacter 00 ff ff
+Text "　そう言い残し、志保は去っていった。"
+WaitPage
+EndTextBlk
+
+*04
+Text "「つまんねー人間で悪かったな！"
+WaitKey
+Text "　どうせオレは夢のねー現実主義者だよっ！」"
+WaitKey
+NewLine
+Text "　教室を出た志保は、去り際に振り向いて『はぁ…』と大袈裟に肩をすくめて見せた。"
+WaitKey
+NewLine
+Text "「あんのヤロ…」"
+WaitKey
+NewLine
+Text "　そのとき、"
+WaitKey
+NewLine
+ChangeCharacter 00 09 01
+Text "「あ、当たった」"
+WaitKey
+NewLine
+Text "　いきなり雅史がそんなことを言った。"
+WaitKey
+NewLine
+Text "「あん？　なにがだ？」"
+WaitKey
+NewLine
+Text "「さっきの"
+SayNameD8
+SayNameD9
+SayNameDA
+SayNameDB
+SayNameDC
+SayNameDD
+Text "の予言。"
+WaitKey
+Text "だって今、志保が開けたよ？」"
+WaitPage
+EndTextBlk
+
+*05
+Text "「……」"
+WaitKey
+NewLine
+Text "「……」"
+WaitKey
+NewLine
+Text "「…オメーもズレたこと言ってんじゃねーよ」"
+WaitKey
+NewLine
+Text "　オレがぼそっと呟いた。"
+WaitKey
+NewLine
+Text "　結局その話は終わり、超能力少女のこともすっかり頭から離れてしまった。"
+WaitPage
+Nazo44 00 00
+Nazo79
+ClearCharacter 00
+Effect 05
+FadeBGM
+WaitForFadeBGM
+PauseBGM
+StartBGM 05
+EndTextBlk

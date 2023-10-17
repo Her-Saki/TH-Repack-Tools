@@ -1,0 +1,230 @@
+;;///////////////////////////////////////////////////
+ScenarioStart 0701 0739
+*00
+End20
+
+*01
+FlagAdd 1a 03
+FlagAdd 17 01
+DisplayMessage 00
+DisplayMessage 01
+DisplayMessage 02
+DisplayMessage 03
+DisplayMessage 04
+DisplayMessage 05
+ClearText
+LoadBG 01
+Effect 05
+Nazo23 1e
+Return2D
+End20
+
+*02
+EndFF
+ScenarioEnd
+
+*00
+` "No creo en poderes sobrenaturales."@
+` Respondo.@
+ChangeCharacter 00 04 03
+` "¿Por qué?"@
+` "Porque me suena a que los estás relacionando con el accidente por la fuerza."@
+` "Pero esa chica predijo que la lámpara caería."@
+` "¿No se habrá dado cuenta de que estaba floja y por eso le avisó?"@
+` Le digo como si fuera algo ridículo.\
+
+*01
+` "Escucha.@ Hasta yo puedo predecir cuándo se va a caer algo."@
+` Apunto hacia la entrada del salón,@
+` "Esa puerta se va a abrir dentro de poco."@
+` y tiro esa predicción.
+WaitPage
+ChangeCharacter 00 04 06
+EndTextBlk
+
+*02
+` "¡Eso es demasiado obvio!"@
+` "Y es justamente por esa obviedad que tú te estás exaltando y armando alboroto."@
+ChangeCharacter 00 04 03
+` Shiho pone cara de enfado, y finalmente da un gran suspiro de resignación.@
+` Entonces,
+` "…‥Está bien."@
+` dice.@
+` "Hasta que al fin te das cuenta."@
+` "Sí, de que eres un realista estereotipado."\
+
+*03
+` "¿A qué te refieres?"@
+ChangeCharacter 00 04 08
+` "Haa…@ No tienes sueños ni nada.@ En verdad eres un tipo aburridísimo."@
+` "Oye, yo sólo…"@
+` "Sí, lo que sea.@ Parece que charlar de estas cosas contigo es una pérdida de tiempo.@ Iré a contárselo a alguien que no sea tan cabezadura.@ Adiós."@
+ChangeCharacter 00 ff ff
+` Dice Shiho antes de marcharse.\
+
+*04
+` "¡Pues perdóname por ser un tipo aburridísimo y un materialista sin sueños!"@
+` Tras salir del salón, Shiho voltea y se encoge de hombros dando un exagerado suspiro.@
+` "Esa infeliz…"@
+` En ese momento,@
+ChangeCharacter 00 09 01
+` "Ah, le acertaste."@
+` dice Masashi de pronto.@
+` "¿Nh?@ ¿Qué cosa?"@
+` "Tu predicción de recién.@ Shiho acaba de abrir la puerta."\
+
+*05
+` "…‥"@
+` "…‥"@
+` "Deja de hablar fuera de lugar, ¿quieres?"@
+` Murmuro.@
+` Al final, cuando la conversación termina, me olvido por completo de la chica esper.
+WaitPage
+ClearScreen 00 00
+ClearText
+ClearCharacter 00
+Effect 05
+FadeBGM
+WaitForFadeBGM
+PauseBGM
+StartBGM 05
+EndTextBlk
+TextEnd
+
+;;///////////////////////////////////////////////////
+ScenarioStart 0702 0740
+*00
+End20
+
+*01
+FlagAdd 1a 01
+FlagAdd 17 03
+DisplayMessage 00
+DisplayMessage 01
+DisplayMessage 02
+DisplayMessage 03
+ClearText
+LoadBG 01
+Effect 05
+Nazo23 1e
+Return2D
+End20
+
+*02
+EndFF
+ScenarioEnd
+
+*00
+` "Bueno, es verdad que los misterios existen."@
+` Hay un millón de cosas en este mundo que la ciencia no puede explicar.@
+ChangeCharacter 00 04 01
+` "Cierto."@
+` "En ese caso, me gustaría que ella adivinara mi futuro."@
+ChangeCharacter 00 04 03
+` "Ey, te dije que no es una adivina de feria."@
+` Dice Shiho, sorprendida y enojada a la vez.
+WaitPage
+ChangeCharacter 00 04 05
+EndTextBlk
+
+*01
+` "Oigan, ¿qué les parece si vamos a verla más tarde?@ Aunque no sé a qué clase va."@
+ChangeCharacter 01 00 03
+` "Creo que la vamos a incomodar."@
+` Akari la detiene.@
+ChangeCharacter 00 04 02
+` "¿Tú crees…?@ Quizás esté de buen humor debido a su popularidad.@ Ah, tengo que ir a contarles a los demás.@ En fin, ¡hasta luego!"@
+` Dice Shiho antes de salir del salón.
+WaitPage
+ChangeCharacter 00 ff ff
+EndTextBlk
+
+*02
+` "Qué escandalosa…"@
+LoadThreeCharacters 00 09 01 02 ff ff 01 00 01
+` "¿Qué hacemos, Hiroyuki?@ ¿Vamos a verla?"@
+` Pregunta Masashi.@
+` "Que la visitemos no significa que vaya a enseñarnos sus poderes.@ Bueno, iré si tengo ganas."\
+
+*03
+` Pero al final, me termino olvidando ahí mismo de ella.
+WaitPage
+ClearScreen 00 00
+ClearText
+ClearCharacter 00
+Effect 05
+FadeBGM
+WaitForFadeBGM
+PauseBGM
+StartBGM 05
+EndTextBlk
+TextEnd
+
+;;///////////////////////////////////////////////////
+ScenarioStart 0703 0741
+*00
+End20
+
+*01
+FlagAdd 1a 00
+FlagAdd 17 02
+DisplayMessage 00
+DisplayMessage 01
+DisplayMessage 02
+ClearText
+LoadBG 01
+Effect 05
+Nazo23 1e
+Return2D
+End20
+
+*02
+EndFF
+ScenarioEnd
+
+*00
+` "¿No habrá sido un truco que preparó?"@
+ChangeCharacter 00 04 03
+` "¿Por qué piensas eso?"@
+` "Todo eso de las habilidades sobrenaturales me huele a fraude.@ Estoy seguro que hay un truco detrás."@
+ChangeCharacter 01 09 01
+` "¿Quieres decir que esa chica preparó la lámpara de antemano?"@
+` Pregunta Masashi.@
+` "Bueno, esa es una posibilidad.@ Pero más allá de eso, es difícil explicarlo como si fuera una coincidencia."@
+` "Eso también apesta a mentira.@ No estamos en un manga como *****ichi Shounen no Kinenbo."@
+` Shiho ríe con sorna.
+CancelNewLine > WaitKey
+NazoB4 07 > SetTextHOffset 02 > SetTextVOffset 82 01
+` *Manga de detectives del año 1992.
+WaitPage > NazoB4 01 > EndTextBlk
+
+*01
+` "Por eso mismo, los poderes psíquicos no existen.@ ¡Esas son cosas que sólo aparecen en los mangas!@ Debe ser un caso como el de Uri Gell--…@ No recuerdo su apellido, pero al final terminó siendo un fraude."@
+ChangeCharacter 00 04 06
+` "¡Te estoy diciendo que NO TIENE POR QUÉ ser una farsante!"@
+` "Pues si acierta una predicción frente a mis propios ojos, voy a creerle.@ Vamos, tráela."@
+` "¡No, TÚ tráela!"@
+ChangeCharacter 00 ff ff
+` Shiho hace puchero, y se va del salón.
+WaitPage
+LoadThreeCharacters 00 00 03 02 ff ff 01 09 03
+EndTextBlk
+
+*02
+` Akari y Masashi se miran el uno al otro, y se encogen de hombros.@
+` "¿Qué es esa cara?@ Es como si pensaran "estos dos se llevan como perros y gatos"."@
+` Les digo, y los dos sonríen forzadamente.@
+` "Y-Yo opino lo mismo, ¿eh?@ Es imposible forzar a alguien a creer en lo sobrenatural de la noche a la mañana."@
+` "Muy cierto."@
+` Nuestra conversación muere ahí, y al final, me olvido instantáneamente de la chica esper.
+WaitPage
+ClearScreen 00 00
+ClearText
+ClearCharacter 00
+Effect 05
+FadeBGM
+WaitForFadeBGM
+PauseBGM
+StartBGM 05
+EndTextBlk
+TextEnd

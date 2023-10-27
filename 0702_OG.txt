@@ -1,0 +1,61 @@
+*00
+` 「不思議なこともあるもんだ」@
+` 　世の中には科学で解明できないことがたくさんあるもんだねぇ。@
+ChangeCharacter 00 04 01
+` 「でしょ？」@
+` 「だったら、オレの未来も当ててもらいたいもんだ」@
+ChangeCharacter 00 04 03
+` 「ちょっと～、占師じゃないんだからさぁ」@
+` 　志保は呆れた顔で言った。"
+WaitPage
+ChangeCharacter 00 04 05
+EndTextBlk
+
+*01
+` 「ねえねえ、それよりさ、クラスはわかんないけど、後でみんなで、そのコを見に行ってみない？」@
+ChangeCharacter 01 00 03
+` 「…でも、迷惑だと思うよ」@
+` 　あかりが止める。@
+ChangeCharacter 00 04 02
+` 「そうかなぁ。"
+WaitKey
+` 意外に本人も有名人みたいで気分いいかもよ？"
+WaitKey
+` 　あっ、あたし、他のみんなにも話してくるから。"
+WaitKey
+` じゃ、まったねー！」@
+` 　そう言って、志保は教室から出ていった。"
+WaitPage
+ChangeCharacter 00 ff ff
+EndTextBlk
+
+*02
+` 「騒がしいヤツ…」@
+LoadThreeCharacters 00 09 01 02 ff ff 01 00 01
+` 「どうする、"
+SayNameD8
+SayNameD9
+SayNameDA
+SayNameDB
+SayNameDC
+SayNameDD
+` ？"
+WaitKey
+` 　見に行く？」@
+` 　雅史が訊いた。@
+` 「行ったところで、そう都合よく超能力が見れるとは限らないだろ？"
+WaitKey
+` 　…まあ、気が向いたらな」\
+
+*03
+` 　だが結局、超能力少女の話題は、それっきり頭から離れてしまった。"
+WaitPage
+Nazo44 00 00
+Nazo79
+ClearCharacter 00
+Effect 05
+FadeBGM
+WaitForFadeBGM
+PauseBGM
+StartBGM 05
+EndTextBlk

@@ -1,0 +1,293 @@
+*00
+StartBGM 06
+` 　昼休み。@
+LoadBG2 07 0a 0a
+` 　オレと雅史はチャイムと同時にダッシュで教室を飛び出した。@
+` 　激しいパン争奪戦を勝ち残るための攻略法だ。@
+` 　購買部は１階の食堂にある。@
+` 　走れば３０秒で行ける距離。@
+` 「待っててくれよ、オレのカツサンド！」"
+WaitPage
+LoadBG2 08 0a 0a
+EndTextBlk
+
+*01
+` 　程なく階段が見えてきた。@
+` 　オレはいつも通りのアウト・イン・アウトで階段に飛び込む…つもりだった。@
+` 　が、そのとき──。\
+
+*02
+` 「あの…」@
+` 　突然、小さな声で呼び止められ、オレは急ブレーキをかけた。@
+` 　雅史はオレに追突しそうになりながらも、なんとか立ち止まった。@
+ChangeCharacter 02 09 01
+` 「ど、どうしたの、"
+SayNameD8
+SayNameD9
+SayNameDA
+SayNameDB
+SayNameDC
+SayNameDD
+` ！？」@
+` 　雅史には答えず、オレは声の方を向いた。"
+WaitPage
+Nazo44 00 00
+FadeBGM
+WaitForFadeBGM
+PauseBGM
+StartBGM 0d
+ChangeCharacter 02 07 01
+EndTextBlk
+
+*03
+` 　そこには、見覚えのない女のコが立っていた。@
+` 　顔を伏せ、上目づかいにこっちを見ている。@
+` 「えっと、オレを呼んだ？」@
+` 　そう訊いても、そのコは口を開くのをためらって、なにも答えちゃくれなかった。\
+
+*04
+` 　わずかに沈黙…。@
+` 　一瞬、オレを呼び止めたのは、別のコじゃないかと疑ってしまう。@
+` 「あの…」@
+` 　決心がついたような顔の後、女のコはようやく口を開いた。@
+` 「そこの…」@
+` 「え？」\
+
+*05
+` 「──そこの階段、危ないですよ…」@
+` 　女のコは小さな声でそう言った。\
+
+*06
+` 「…えっ、階段？」@
+` 　聞き返すと、女のコはコクンとうなずいた。@
+` 　どうやら廊下や階段を走るなと言いたいらしい。@
+` 「あ、ああ、わざわざ忠告どうも…」@
+` 　軽く頭を下げて、オレは階段に一歩を踏み出した。"
+WaitPage
+ChangeCharacter 02 ff ff
+EndTextBlk
+
+*07
+` 　まあ、あんなこと言われた後だし、一応は慎重に…。@
+` 　──と、その一歩目で…。@
+` 　かくんっ！@
+` 「あっ、あれっ！？」@
+` 　なんと、"
+Wait 1e
+` オレは見事につまずいてしまった。@
+` 　両手でバランスをとり、前のめりになった身体を片足で支える。@
+` 「おっ…とっと…」@
+` 　だが、踏み留まれたのは、ほんの１秒だけだった。\
+
+*08
+` 　ズデン、"
+Vibrato 0c
+` ズデン、"
+Vibrato 0b
+` ズデンッ！！"
+Vibrato 0a
+WaitPage
+EndTextBlk
+
+*09
+` 　踊り場まで派手に転げ落ちてしまう、オレ。@
+` 「"
+SayNameE6
+` 、"
+SayNameD8
+SayNameD9
+SayNameDA
+SayNameDB
+SayNameDC
+SayNameDD
+` ！？」@
+` 　雅史が驚きの声を上げる。\
+
+*0a
+` 「イテテテ…」@
+ChangeCharacter 02 09 01
+` 「大丈夫！？"
+WaitKey
+` 　"
+SayNameD8
+SayNameD9
+SayNameDA
+SayNameDB
+SayNameDC
+SayNameDD
+` ！？」@
+` 「…だ、大丈夫、な、なんともない」@
+` 　打ったところが多少痛んだが、大したことはない。@
+` 　オレは立ち上がった。\
+
+*0b
+` 「一瞬、"
+SayNameD8
+SayNameD9
+SayNameDA
+SayNameDB
+SayNameDC
+SayNameDD
+` が、スッと消えちゃって…」@
+` 「は、はは、瞬間移動だ、なんてね」@
+` 「でも無事でよかったよ…」@
+` 　雅史に何か言おうと口を開きかけた瞬間、階段の上から、さっきの女のコが見ていることに気付いた。@
+` 　ずっと、見てたのか？@
+` 　注意されたばっかりだってのに…。@
+` 　くぅ～。@
+` 　恥ずかしいところを見られてしまった。"
+WaitPage
+ChangeCharacter 02 07 02
+EndTextBlk
+
+*0c
+` 　ところが女のコは、クスッとも笑わずに、なにやら怯えるような顔でこっちを見ていた。@
+` 　落ちたのはこのオレなのに、まるで被害にあったのは自分のように青ざめた顔をしていた。@
+` 　なんだ…？@
+ChangeCharacter 02 ff ff
+` 　目が合った瞬間、女のコは、たたたっと逃げるように走り去ってしまった。"
+WaitPage
+Nazo44 00 00
+FadeBGM
+WaitForFadeBGM
+PauseBGM
+StartBGM 06
+ChangeCharacter 02 09 01
+EndTextBlk
+
+*0d
+` 「あの子、さっき"
+SayNameD8
+SayNameD9
+SayNameDA
+SayNameDB
+SayNameDC
+SayNameDD
+` になんて言ったの？」@
+` 「危ないから気をつけろって…」@
+` 「…えっ？"
+WaitKey
+` 　それじゃまるで、"
+SayNameD8
+SayNameD9
+SayNameDA
+SayNameDB
+SayNameDC
+SayNameDD
+` が転ぶってこと、始めからわかってたみたいだね」@
+` 「お、おい、気持ち悪いこと言うなよ」@
+` 「…新入生かな？」@
+` 「なんでわかるんだよ？」@
+` 「だって、制服が新しかったし…」"
+WaitPage
+ChangeCharacter 02 ff ff
+EndTextBlk
+
+*0e
+` 　そういえば、なんとなく初々しい感じのコだった。@
+` 　髪が綺麗でほっそりした可愛い女のコだったけど、どこか寂しそうな不思議な雰囲気を漂わせていた。@
+` 　加えて、オレが転ぶ前に言ったあのひとこと。@
+` 　偶然だって言えばそれまでだけど…。\
+
+*0f
+` 　だが、それ以上に気になることがあった。@
+` 　さっき、つまずいたときの不思議な感覚。@
+` 　つまずく…"
+Wait 1e
+` というよりも、なにかに足をつかまれたような感じだった。@
+` 　そう、まるで、突然…"
+Wait 1e
+` 片足だけコンクリート詰めにされたような…"
+Wait 1e
+` そんな奇妙な感覚だった。"
+WaitPage
+ChangeCharacter 02 09 01
+EndTextBlk
+
+*10
+` 「それより"
+SayNameD8
+SayNameD9
+SayNameDA
+SayNameDB
+SayNameDC
+SayNameDD
+` 、急がないと」@
+` 「えっ」@
+` 「パンが売り切れちゃうよ」@
+` 「あっ」@
+` 　そうだった！@
+` 「こりゃ痛いタイムロスだぜ！」@
+` 「まさに『痛い』だね？」\
+
+*11
+` 「……」@
+` 「……」@
+` 「……」@
+` 「……」@
+` 「…雅史」@
+` 「…え？"
+WaitKey
+` 　なに？"
+WaitKey
+` 　つまんなかった？」@
+` 　そのときだ。"
+WaitPage
+Nazo44 00 00
+FadeBGM
+WaitForFadeBGM
+PauseBGM
+StartBGM 0a
+EndTextBlk
+
+*12
+` 「いよっ！"
+WaitKey
+` 　なに見つめ合ってんの、おふたりさん！」@
+ChangeCharacter 02 04 01
+` 　いきなりそんな声を掛けてきたのは志保だった。@
+ChangeCharacter 02 04 07
+` 「昼間っから、男同士はまずいよ、うん」@
+` 「あのなぁ、お前」@
+ChangeCharacter 02 04 02
+` 「それよりも、さっきのコ、見た？」@
+` 「さっきのコって、あの髪の長い？」@
+` 「そうそう」@
+` 「あのコがどうした？」\
+
+*13
+` 「彼女が例の超能力少女よ」@
+` 「えっ！？」@
+` 「もしかして、初めて見たの？」@
+` 　オレと雅史はそろってうなずいた。@
+` 「よかったじゃない、見に行く手間が省けて」@
+` 「あのコが…」@
+` 　小さく呟きながら、オレは、もう一度さっきの女のコの言葉を思い出していた。"
+WaitPage
+SepiaEffect 01
+LoadCharacterAndBg 02 07 01 08 0a 0a
+EndTextBlk
+
+*14
+` 「──そこの階段、危ないですよ…」"
+WaitPage
+NazoBE
+` 霧哨"
+
+*15
+` 　もしかして…"
+Wait 1e
+` あれも、予言だったんだろうか？"
+WaitPage
+LoadVisualScene 00 0a 0b
+FadeBGM
+WaitForFadeBGM
+PauseBGM
+EndTextBlk
+
+*16
+` （琴音との出会い）"
+NewLine
+` （４月１１日（金）昼）"
+NewLine
+` （廊下）\

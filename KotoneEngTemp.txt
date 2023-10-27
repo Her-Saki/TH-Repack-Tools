@@ -1,0 +1,787 @@
+;;///////////////////////////////////////////////////
+;;Scene translated by Yotsurin
+ScenarioStart 0700 0738
+*00
+End20
+
+*01
+FadeBGM
+WaitForFadeBGM
+PauseBGM
+Nazo6C 17
+DisplayMessage 00
+DisplayMessage 01
+DisplayMessage 02
+DisplayMessage 03
+DisplayMessage 04
+DisplayMessage 05
+DisplayMessage 06
+DisplayMessage 07
+DisplayMessage 08
+DisplayMessage 09
+DisplayMessage 0a
+DisplayMessage 0b
+DisplayMessage 0c
+DisplayMessage 0d
+DisplayMessage 0e
+DisplayMessage 0f
+DisplayMessage 10
+DisplayMessage 11
+DisplayMessage 12
+Choice 13 03 14 00 15 05 16 0a
+Nazo6B
+Jump 07 01 01
+Nazo6B
+Jump 07 02 01
+Nazo6B
+Jump 07 03 01
+End20
+
+*02
+EndFF
+ScenarioEnd
+
+*00
+StartBGM 07
+LoadCharacterAndBg 01 00 01 02 0a 0a
+` "However, when I think about being together all year round, I feel a little happy."@
+` Says Akari while smiling.@
+` "Well, now what?"@
+` I exhale a bit while laying my cheek on the desk.@
+` "Have we maybe grown tired of seeing each other's faces?"@
+` "Nah, not yet for me.@ Well, how about this year we see each other to the point of becoming REALLY TIRED of it?"@
+` "…‥What are you even saying?@ You dummy."\
+
+*01
+` The second day of our second school year.@
+` By the way, I wonder just how many years its been since Akari and I have had a class together…@
+` Probably not since the first year of middle school.@
+` Since kindergarten we've been going to the same school but we've only had class together two, maybe three times.\
+
+*02
+` "Hey, do you want to go home together today?"@
+` Akari says with a big smile.@
+` "Hm?@ Why?"@
+ChangeCharacter 01 00 03
+` "Why…@ Not for any particular reason…"@
+` After saying that, Akari lets out an awkward laugh…
+WaitPage
+Nazo44 00 00
+FadeBGM
+WaitForFadeBGM
+PauseBGM
+StartBGM 0a
+LoadThreeCharacters 00 04 01 02 ff ff 01 00 01
+EndTextBlk
+
+*03
+` "Hey, hey, everyone!!@ Listen up!!@ It's HUGE news!!!"@
+` Shiho suddenly rushes into the classroom while making a huge (and frankly annoying) commotion.@
+` ""Huge news"?!@ Don't come here again spreading false rumors!"@
+ChangeCharacter 00 04 03
+` "Ugh, you're SO annoying, jeez!@ Anyway, I heard that this is actually TRUE huge news!@
+ChangeCharacter 00 04 01
+` Ah, Masashi!@ Heyyy, over here!"@
+` Shiho dragged Masashi, who was nearby, into this as well.
+WaitPage
+ChangeCharacter 01 09 01
+EndTextBlk
+
+*04
+` "Huh?"@
+` Masashi asks with a rather puzzled look on his face.@ 
+` "Listen up!@ This is some serious news that I've found out!"@
+` Shiho says puffing her chest out with pride.@
+` She came from another class just to announce this, so maybe it's quite the scoop after all…?@
+` Right, that reminds me…\
+
+*05
+` "Shiho, what class are you in again?"@
+ChangeCharacter 00 04 03
+` "Huh, my class?@ Did you already forget?@ Class A, right next to yours!@ Sheesh, you seriously have such a weak memory, huh?"@
+` "I merely forgot, so what?"@
+` "Yeah, so that means you have a weak memory, no?"@
+` "Ugh…"@
+ChangeCharacter 01 09 03
+` "Well, anyway,| what was the news?"@
+` Masashi got back to the point while letting out an awkward chuckle.
+WaitPage
+ChangeCharacter 00 04 02
+EndTextBlk
+
+*06
+` "Right right, the huge news…"@
+ChangeCharacter 01 09 01
+` "Yeah…?"@
+` The three of us bring our heads close together.@
+` "It's a mysterious phenomenon that would shock even the 'X Files'!"@
+` "…‥What?@ Was a dead alien body discovered in the school basement or something?"@
+ChangeCharacter 00 04 13
+` "Nooope!@ Sorry!@ But I like your thinking!@ Actually, though, you're on the right track."@
+` Shiho snaps her fingers in a regretful manner.@
+` Does she think she's some kind of quiz gameshow host or something?
+WaitPage
+ChangeCharacter 01 09 02
+EndTextBlk
+
+*07
+` "Did one of the students see a UFO?"@
+` Says Masashi.@
+` "Nooope!@ But the student part is right!"@
+ChangeCharacter 01 00 03
+` "Hey, since when did this become a quiz?"@
+` Akari says while laughing awkwardly.@
+LoadThreeCharacters 00 04 05 02 ff ff 01 00 01
+` "Ah, right, sorry."@
+` Shiho says, sticking her tongue out a bit and letting out a chuckle.
+WaitPage
+ChangeCharacter 00 04 02
+EndTextBlk
+
+*08
+` "So, the big news…@ Frankly I still can't believe it myself, but…"@
+` Shiho lowered her tone a bit, and started to tell us.@
+` She's the most informed of our group.@
+` This scoop that's making even Shiho enlivened is raising our expectations.\
+
+*09
+` "It seems we have a rather amazing freshman among us!"@
+` "Amazing…?"@
+` Says Akari.@
+` "Yup.@ After all…"@
+` Our heads come close together again as we're growing more and more curious.@
+` Well, what is it?@
+` Has a celebrity or something started attending our school?@
+` But to say that even the X files would be shocked, it's gotta be more absurd than that for sure.\
+
+*0a
+` "After all…"@
+` "After all…?"@
+` "According to rumors…"@
+` "According to rumors…?"@
+` "It's shocking buuuuut…"@
+` "Just spit it out already!"
+WaitPage
+ChangeCharacter 00 04 05
+EndTextBlk
+
+*0b
+` "An ESP!"@
+ChangeCharacter 01 00 0a
+` "Whaaaat?!"@
+` All three of our voices have a shocked tone.@
+` Akari and Masashi's "Whaaaat?!" was a merely suprised one, however, mine was more of an umimpressed one.@
+` "ESP is when you can bend a spoon or something, right?"@
+` I said with a tone of suspicion.@
+` "No, no!@ It's nothing stupid and useless like that!@ It's WAY more amazing!@ Here's a hint: Nostradamus!"@
+` Again with the quizzes?
+WaitPage
+ChangeCharacter 01 09 01
+EndTextBlk
+
+*0c
+` "Nostradamus…@ Is it precognition?"@
+` Said Masashi, who is suprisingly dense when it comes to this kind of stuff.@
+` "Bing-Bong!@ Correct!"@
+` Shiho clapped her hands.@
+ChangeCharacter 01 00 02
+` "Umm…@ So what does it mean?"@
+` Akari asks with a puzzled look on her face.@
+ChangeCharacter 01 09 02
+` "It's the power to correctly guess events that will happen in the future."@
+` Explained Masashi.@
+ChangeCharacter 01 00 01
+` "…‥So it's fortune telling or something?"@
+` "No, it's not like that!@ It's way WAAAAY more cool!"@
+` Shiho says leaning her body forward.
+WaitPage
+ChangeCharacter 00 04 02
+EndTextBlk
+
+*0d
+` "It's accurately guessing incidents!@ Someone getting into a car accident, a house catching fire, so on and so forth."@
+ChangeCharacter 01 00 0b
+` "For real?"@
+` Akari doesn't seem to be fully convinced.@
+` "Yes, for real!@ I heard it all from a girl who was at the same middle school as this person last year, so it's reliable information.@ After all that girl…@ Ah,| almost forgot.@ She's a girl by the name of Kotone Himekawa.@ Apparently she awoke her powers sometime in middle school, and one by one she started correctly guessing her friends and acquaintances incidents!"\
+
+*0e
+` "Huh…@ That's ridiculous."@
+` I say with a rather indifferent tone.@
+` Even if the whole thing hasn't been told yet, 80% of it is a probably a lie anyway.@
+LoadThreeCharacters 00 04 03 02 ff ff 01 00 01
+` "What?!@ You saying you can't believe it?!"@
+` "Isn't it obvious?@ Such a ridiculous story…"@
+` I already have enough with Kurusugawa's shady hobbies.@
+` "Say that while you can, because there's still more to this story!"@
+` "What?@ There's more?"
+WaitPage
+ChangeCharacter 00 04 02
+EndTextBlk
+
+*0f
+` "It's fine, I'll tell you."@
+` Shiho has a bold grin on her face.@
+` "We had ours last year but, you know how the school holds a ceremony for new students every spring?"@
+` "The thing they do in the Gym?"@
+` "Yup.@ Hehehe, so did you know…@ At this year's ceremony there was an incident."@
+` "An incident?"@
+` "Mhm."@
+ChangeCharacter 01 09 01
+` "…‥Ah, are you by chance referring to…?"@
+` Masashi butted in.\
+
+*10
+` "That incident where the light above the stage fell and almost hit the principal?"@
+ChangeCharacter 00 04 05
+` "Yes!!@ Bing-Bong!"@
+` "Wait, what?"@
+ChangeCharacter 01 00 02
+` "Oh yeah, I also heard about that…"@
+` Now even Akari is joining in.@
+` "Fortunately the principal seemed to be ok, though."
+WaitPage
+ChangeCharacter 00 04 02
+EndTextBlk
+
+*11
+` "But, the safe ending was thanks to the ESP girl warning the principal ahead of time that the lights above him were about to fall."@
+` "Such BS…"
+WaitPage
+ChangeCharacter 00 04 03
+EndTextBlk
+
+*12
+` "It's not BS!@ It happened at the ceremony!@ There were lots of other students and parents, and Himekawa made a big prediction out of nowhere!@
+ChangeCharacter 00 04 02
+` Ultimately the principal suffered no injuries all thanks to Himekawa."@
+` Shiho looks at me triumphantly.@
+` "You're telling me you still can't believe it?"\
+
+*13
+` Hmm…@
+` An ESP girl, huh…?
+EndTextBlk
+
+*14
+SetTextHOffset 06
+CharacterDrawSpeed 00
+` A. Nope, no way I believe in ESP.
+EndTextBlk
+
+*15
+SetTextHOffset 06
+CharacterDrawSpeed 00
+` B. Well, it's true that there are some mysterious things out there.
+EndTextBlk
+
+*16
+SetTextHOffset 06
+CharacterDrawSpeed 00
+` C. Maybe she was just playing some sort of trick?
+NewLine
+EndTextBlk
+
+*17
+` (Kotone meeting - Intro)
+` 9-4, WED, MORNING
+` Classroom
+` Akari - Stand up\
+TextEnd
+
+;;///////////////////////////////////////////////////
+;;Scene translated by Yotsurin
+ScenarioStart 0701 0739
+*00
+End20
+
+*01
+FlagAdd 1a 03
+FlagAdd 17 01
+DisplayMessage 00
+DisplayMessage 01
+DisplayMessage 02
+DisplayMessage 03
+DisplayMessage 04
+DisplayMessage 05
+ClearText
+LoadBG 01
+Effect 05
+Nazo23 1e
+Return2D
+End20
+
+*02
+EndFF
+ScenarioEnd
+
+*00
+` "Nope, no way I believe in ESP."@
+` I say.@
+ChangeCharacter 00 04 03
+` "Why not?"@
+` "Because it sounds like you're trying to force some sort of link to ESP in that whole story."@
+` "But…@ She predicted the stage lights falling…"@
+` "Couldn't she just have easily noticed that the stage lights were about to fall?@ That's likely why she warned him."@
+` I say, slightly annoyed.\
+
+*01
+` "Look, even I can predict when something is about to fall."@
+` I point to the classroom doorway.@
+` "That door will open shortly."@
+` I predict.
+WaitPage
+ChangeCharacter 00 04 06
+EndTextBlk
+
+*02
+` "Well, that's obvious!"@
+` "Exactly, so you're just making a big deal out of something small to make the story seem more exciting, no?"@
+ChangeCharacter 00 04 03
+` Not long after saying that Shiho starts to frown and lets out a large sigh.@
+` And then,@
+` "…‥Fine."@
+` she says.@
+` "Did you finally notice?"@
+` "Yeah, noticed that you're a typical realist."\
+
+*03
+` "The hell is that?"@
+ChangeCharacter 00 04 08
+` "*Sigh*@ It means you have no dreams, or rather, you're just really boring."@
+` "Uh…@ I'm just…"@
+` "Yeah yeah, whatever, it's fine.@ At this rate it'll be just be a waste of time to explain all this to you.@ I should have shared this with someone more open-minded.@ Oh well, later."@
+ChangeCharacter 00 ff ff
+` 　With those words, Shiho walks away to her class.\
+
+*04
+` "Well, excuse me for being so "boring" and a "realist" with no dreams!"@
+` On the way out, Shiho looks back at me and shrugs her shoulders in an exaggerated fashion.@
+` "That bitch…"@
+` And then,@
+ChangeCharacter 00 09 01
+` "Oh, it happened!"@
+` Masashi shouts suddenly.@
+` "Hm?@ What happened?"@
+` "The thing you predicted earlier.@ Shiho just opened the door.@"\
+
+*05
+` "…‥"@
+` "…‥"@
+` "For God's sake Masashi, read the fuckin' mood…"@
+` I mutter under my breath.@
+` And just like that the conversation is wrapped up.@ As for the ESP girl, any thoughts of her had completely left my mind by that point.
+WaitPage
+Nazo44 00 00
+Nazo79
+ClearCharacter 00
+Effect 05
+FadeBGM
+WaitForFadeBGM
+PauseBGM
+StartBGM 05
+EndTextBlk
+TextEnd
+
+;;///////////////////////////////////////////////////
+ScenarioStart 0702 0740
+*00
+End20
+
+*01
+FlagAdd 1a 01
+FlagAdd 17 03
+DisplayMessage 00
+DisplayMessage 01
+DisplayMessage 02
+DisplayMessage 03
+ClearText
+LoadBG 01
+Effect 05
+Nazo23 1e
+Return2D
+End20
+
+*02
+EndFF
+ScenarioEnd
+
+*00
+` "Bueno, es verdad que los misterios existen."@
+` Hay un millón de cosas en este mundo que la ciencia no puede explicar.@
+ChangeCharacter 00 04 01
+` "Cierto."@
+` "En ese caso, me gustaría que ella adivinara mi futuro."@
+ChangeCharacter 00 04 03
+` "Ey, te dije que no es una adivina de feria."@
+` Dice Shiho, sorprendida y enojada a la vez.
+WaitPage
+ChangeCharacter 00 04 05
+EndTextBlk
+
+*01
+` "Oigan, ¿qué les parece si vamos a verla más tarde?@ Aunque no sé a qué clase va."@
+ChangeCharacter 01 00 03
+` "Creo que la vamos a incomodar."@
+` Akari la detiene.@
+ChangeCharacter 00 04 02
+` "¿Tú crees…?@ Quizás esté de buen humor debido a su popularidad.@ Ah, tengo que ir a contarles a los demás.@ En fin, ¡hasta luego!"@
+` Dice Shiho antes de salir del salón.
+WaitPage
+ChangeCharacter 00 ff ff
+EndTextBlk
+
+*02
+` "Qué escandalosa…"@
+LoadThreeCharacters 00 09 01 02 ff ff 01 00 01
+` "¿Qué hacemos, Hiroyuki?@ ¿Vamos a verla?"@
+` Pregunta Masashi.@
+` "Que la visitemos no significa que vaya a enseñarnos sus poderes.@ Bueno, iré si tengo ganas."\
+
+*03
+` Pero al final, me termino olvidando ahí mismo de ella.
+WaitPage
+ClearScreen 00 00
+ClearText
+ClearCharacter 00
+Effect 05
+FadeBGM
+WaitForFadeBGM
+PauseBGM
+StartBGM 05
+EndTextBlk
+TextEnd
+
+;;///////////////////////////////////////////////////
+ScenarioStart 0703 0741
+*00
+End20
+
+*01
+FlagAdd 1a 00
+FlagAdd 17 02
+DisplayMessage 00
+DisplayMessage 01
+DisplayMessage 02
+ClearText
+LoadBG 01
+Effect 05
+Nazo23 1e
+Return2D
+End20
+
+*02
+EndFF
+ScenarioEnd
+
+*00
+` "¿No habrá sido un truco que preparó?"@
+ChangeCharacter 00 04 03
+` "¿Por qué piensas eso?"@
+` "Todo eso de las habilidades sobrenaturales me huele a fraude.@ Estoy seguro que hay un truco detrás."@
+ChangeCharacter 01 09 01
+` "¿Quieres decir que esa chica preparó la lámpara de antemano?"@
+` Pregunta Masashi.@
+` "Bueno, esa es una posibilidad.@ Pero más allá de eso, es difícil explicarlo como si fuera una coincidencia."@
+` "Eso también apesta a mentira.@ No estamos en un manga como *****ichi Shounen no Kinenbo."@
+` Shiho ríe con sorna.
+CancelNewLine > WaitKey
+NazoB4 07 > SetTextHOffset 02 > SetTextVOffset 82 01
+` *Manga de detectives del año 1992.
+WaitPage > NazoB4 01 > EndTextBlk
+
+*01
+` "Por eso mismo, los poderes psíquicos no existen.@ ¡Esas son cosas que sólo aparecen en los mangas!@ Debe ser un caso como el de Uri Gell--…@ No recuerdo su apellido, pero al final terminó siendo un fraude."@
+ChangeCharacter 00 04 06
+` "¡Te estoy diciendo que NO TIENE POR QUÉ ser una farsante!"@
+` "Pues si acierta una predicción frente a mis propios ojos, voy a creerle.@ Vamos, tráela."@
+` "¡No, TÚ tráela!"@
+ChangeCharacter 00 ff ff
+` Shiho hace puchero, y se va del salón.
+WaitPage
+LoadThreeCharacters 00 00 03 02 ff ff 01 09 03
+EndTextBlk
+
+*02
+` Akari y Masashi se miran el uno al otro, y se encogen de hombros.@
+` "¿Qué es esa cara?@ Es como si pensaran "estos dos se llevan como perros y gatos"."@
+` Les digo, y los dos sonríen forzadamente.@
+` "Y-Yo opino lo mismo, ¿eh?@ Es imposible forzar a alguien a creer en lo sobrenatural de la noche a la mañana."@
+` "Muy cierto."@
+` Nuestra conversación muere ahí, y al final, me olvido instantáneamente de la chica esper.
+WaitPage
+ClearScreen 00 00
+ClearText
+ClearCharacter 00
+Effect 05
+FadeBGM
+WaitForFadeBGM
+PauseBGM
+StartBGM 05
+EndTextBlk
+TextEnd
+
+;;///////////////////////////////////////////////////
+ScenarioStart 0704 0742
+*00
+End20
+
+*01
+TimeSetting 0b
+LoadBG 02
+Effect 05
+Nazo6C 16
+FadeBGM
+WaitForFadeBGM
+PauseBGM
+DisplayMessage 00
+DisplayMessage 01
+DisplayMessage 02
+DisplayMessage 03
+DisplayMessage 04
+DisplayMessage 05
+DisplayMessage 06
+DisplayMessage 07
+DisplayMessage 08
+DisplayMessage 09
+DisplayMessage 0a
+DisplayMessage 0b
+DisplayMessage 0c
+DisplayMessage 0d
+DisplayMessage 0e
+DisplayMessage 0f
+DisplayMessage 10
+DisplayMessage 11
+DisplayMessage 12
+DisplayMessage 13
+DisplayMessage 14
+DisplayMessage 15
+FlagSetBit 07 00 01
+LoadBG 01
+Effect 0a
+Nazo23 1e
+Return2D
+End20
+
+*02
+EndFF
+ScenarioEnd
+
+*00
+StartBGM 06
+` Recreo.@
+LoadBG2 07 0a 0a
+` Masashi y yo dasheamos fuera del salón al unísono del timbre.@
+` Es una de nuestras tácticas para salir victoriosos en la cruenta disputa por los sándwiches.@
+` La cafetería está en el comedor del primer piso.@
+` Si corremos, podemos llegar en 30 segundos.@
+` "¡Espérame ahí, sándwich de chuleta!"
+WaitPage
+LoadBG2 08 0a 0a
+EndTextBlk
+
+*01
+` Pronto veo las escaleras.@
+` Hago mi clásico "out-in-out" y salto hacia las escaleras… o eso diría si no fuera porque en ese instante…\
+
+*02
+` "Umm…"@
+` Alguien me llama de repente, y piso los frenos de emergencia.@
+` Masashi casi choca contra mí, pero alcanza a detenerse.@
+ChangeCharacter 02 09 01
+` "¡¿Q-Qué pasa?!"@
+` Sin responderle, volteo hacia la voz.
+WaitPage
+ClearScreen 00 00
+FadeBGM
+WaitForFadeBGM
+PauseBGM
+StartBGM 0d
+ChangeCharacter 02 07 01
+EndTextBlk
+
+*03
+` Allí se encuentra parada una chica que no recuerdo haber visto antes.@
+` Agacha la cabeza, y me mira desde abajo.@
+` "Uh, ¿tú me llamaste?"@
+` Le pregunto, pero ella vacila en abrir la boca, y no contesta.\
+
+*04
+` Un breve silencio toma lugar.@
+` Por un instante me asalta la duda de que quizás me llamó otra chica.@
+` "Umm…"@
+` Luego de poner cara de haberse decidido, la chica finalmente se dispone a hablar.@
+` "Ten…"@
+` "¿Eh?"\
+
+*05
+` "Ten cuidado con… esas escaleras."@
+` Dice la chica en voz baja.\
+
+*06
+` "¿Eh?@ ¿Las escaleras?"@
+` Le pregunto de nuevo, y ella asiente.@
+` Al parecer quiere que cumpla las reglas y que evite correr por las escaleras y el pasillo.@
+` "C-Claro, gracias por la advertencia."@
+` Hago una ligera reverencia, y piso un escalón.
+WaitPage
+ChangeCharacter 02 ff ff
+EndTextBlk
+
+*07
+` Bueno, se tomó la molestia de advertirme, así que iré con cuidado.@
+` Pero en ese primer paso…@
+` *¡Tamp!*@
+` "¡¿E-Eh?!"@
+` me tropiezo magníficamente.@
+` Recupero el balance con ambos brazos, y sostengo mi cuerpo que se inclina hacia adelante con un pie.@
+` "Ah, estuvo cerca…"@
+` No obstante, sólo resisto un segundo.\
+
+*08
+Vibrato 0c
+` *Tump*
+Vibrato 0b
+` *Tump*
+Vibrato 0a
+` *¡¡TUMP!!*\
+
+*09
+` Ruedo estrepitosamente hasta el descansillo.@
+` "¡¿Hi-Hiroyuki?!"@
+` Grita Masashi sorprendido.\
+
+*0a
+` "Ouch…"@
+ChangeCharacter 02 09 01
+` "¡¿Estás bien, Hiroyuki?!"@
+` "S-Sí, n-no fue nada."@
+` Las zonas donde me golpeé me duelen un poco, pero no es la gran cosa.@
+` Me pongo de pie.\
+
+*0b
+` "Desapareciste de un instante para otro…"@
+` "J-Jaja, ¿te gustó mi teletransportación?@"
+` "Me alivia que estés ileso."@
+` Masashi estaba a punto de abrir la boca para decir algo más, pero en ese momento, me doy cuenta de que la chica de recién nos está mirando desde debajo de las escaleras.@
+` ¿Nos estuvo observando todo el tiempo?@
+` Y eso que me avisó del peligro y todo…@
+` Kgh…@
+` Pasé verguenza frente a ella.
+WaitPage
+ChangeCharacter 02 07 02
+EndTextBlk
+
+*0c
+` Sin embargo, la chica no se ríe en lo más mínimo, y me mira como si estuviera asustada de algo.@
+` Yo fui el que cayó, pero su cara está tan pálida que cualquiera pensaría que fue ella la que salió lastimada.@
+` ¿Qué le pasa…?@
+ChangeCharacter 02 ff ff
+` Apenas se cruzan nuestras miradas, la chica sale corriendo como si escapara.
+WaitPage
+ClearScreen 00 00
+FadeBGM
+WaitForFadeBGM
+PauseBGM
+StartBGM 06
+ChangeCharacter 02 09 01
+EndTextBlk
+
+*0d
+` "¿Qué te había dicho esa chica antes?"@
+` "Que tuviera cuidado con las escaleras."@
+` "¡¿Eh?!@ Es como si hubiera sabido desde un principio que te caerías."@
+` "O-Oye, no me asustes."@
+` "¿Será una estudiante transferida?"@
+` "¿Cómo lo sabes?"@
+` "Es que su uniforme es nuevo…"
+WaitPage
+ChangeCharacter 02 ff ff
+EndTextBlk
+
+*0e
+` Ahora que lo pienso, tiene un aire a recién ingresada.@
+` Es una chica linda y delgada, y su cabello es precioso, pero siento un aura solitaria y misteriosa viniendo de ella.@
+` Además, esa advertencia que me dio antes de caer…@
+` Quizás sea pura coincidencia, pero…\
+
+*0f
+` Más allá de eso, hay algo que me inquieta.@
+` Esa extraña sensación que tuve cuando tropecé.@
+` Más que tropezar…| fue como si alguien me hubiera tirado del pie.@
+` Sí, como si de repente| mi pie se hubiera hundido en concreto.| Se sintió muy raro.
+WaitPage
+ChangeCharacter 02 09 01
+EndTextBlk
+
+*10
+` "Vamos, Hiroyuki.@ Tenemos que darnos prisa."@
+` "¿Eh?"@
+` "Los sándwiches van a agotarse."@
+` "¡Ah!"@
+` ¡Es verdad!@
+` "¡Este fue un retraso fatal!"@
+` "Yo diría que "casi" fatal…"\
+
+*11
+` "…‥"@
+` "…‥"@
+` "…‥"@
+` "…‥"@
+` "… Masashi."@
+` "¿Eh?@ ¿Qué pasa?@ ¿Ya te aburriste?"@
+` En ese momento…
+WaitPage
+ClearScreen 00 00
+FadeBGM
+WaitForFadeBGM
+PauseBGM
+StartBGM 0a
+EndTextBlk
+
+*12
+` "¡Hey!@ ¡¿Qué hacen mirándose el uno al otro?!"@
+ChangeCharacter 02 04 01
+` Shiho nos llama de repente.@
+ChangeCharacter 02 04 07
+` "Consíganse un cuarto, que aún es mediodía."@
+` "No te pases…"@
+ChangeCharacter 02 04 02
+` "Por cierto, ¿viste a la chica de recién?"@
+` "¿Te refieres a la de cabello largo?"@
+` "Sí, esa misma."@
+` "¿Qué pasa con ella?"\
+
+*13
+` "Ella es la famosa esper."@
+` "¡¿Eh?!"@
+` "¿Acaso es la primera vez que la ven?"@
+` Masashi y yo asentimos.@
+` "Qué bueno.@ Se ahorraron el trabajo de ir a verla."@
+` "Esa chica…"@
+` Murmuro despacio mientras recuerdo una vez más sus palabras.
+WaitPage
+SepiaEffect 01
+LoadCharacterAndBg 02 07 01 08 0a 0a
+EndTextBlk
+
+*14
+` "Ten cuidado con… esas escaleras."
+WaitPage
+NazoBE 08 0a 0a
+EndTextBlk
+
+*15
+` ¿Acaso eso…| fue una predicción?
+WaitPage
+LoadVisualScene 00 0a 0b
+FadeBGM
+WaitForFadeBGM
+PauseBGM
+EndTextBlk
+
+*16
+` (Kotone meeting)
+` (11-4, FRI, MIDDAY)
+` (Hallway)\
+TextEnd

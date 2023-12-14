@@ -1,0 +1,22 @@
+Y axis of each line (little endian):
+000C -> 002A -> 0048 -> 0066 -> 0084 -> 00A2 -> 00C0 -> 00DE -> 00FC
+2E644 in RAM
+
+((0C - Y offset of the beginning of the line - 54F1BD in ROM:))
+[2:4e4d][247d:067d] b8 0c 00                mov ax,000ch        ax=000f bx=0000 cx=0003 dx=5c57 || bp=6e16 sp=6de6 si=0001 di=0000 || cs=247d ds=2b65 ss=2b65 es=5c57 || vnZc
+[2:4e50][247d:0680] 50                      push ax             ax=000c bx=0000 cx=0003 dx=5c57 || bp=6e16 sp=6de6 si=0001 di=0000 || cs=247d ds=2b65 ss=2b65 es=5c57 || vnZc
+((Y increment for each line:))
+[2:3f5b][230f:0e6b] 83 06 f4 2f 1e          add ds:[2ff4h],1eh  ax=0002 bx=0065 cx=8800 dx=0000 || bp=6ddc sp=6d86 si=5c57 di=0000 || cs=230f ds=2b65 ss=2b65 es=5c57 || vnZc
+
+8B 46 06 A3 F2 2F 83 06 F4 2F 1E
+
+0x54E2CF X
+0x563275 X
+
+PATCHES:
+//Text starts from the top:
+0x54F1BE -> 0x00
+//Y axis increment for each line:
+0x54E2CF -> 0x18
+//Y axis increment for NEWLINE jumps:
+0x54D544 -> 0x18

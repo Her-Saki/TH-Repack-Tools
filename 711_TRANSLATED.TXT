@@ -1,0 +1,668 @@
+;;///////////////////////////////////////////////////
+ScenarioStart 0711 0744
+*00
+End20
+
+*01
+SetFlag aa 01
+DisplayMessage 00
+DisplayMessage 01
+DisplayMessage 02
+DisplayMessage 03
+DisplayMessage 04
+DisplayMessage 05
+DisplayMessage 06
+DisplayMessage 07
+DisplayMessage 08
+DisplayMessage 09
+DisplayMessage 0a
+DisplayMessage 0b
+DisplayMessage 0c
+DisplayMessage 0d
+DisplayMessage 0e
+DisplayMessage 0f
+DisplayMessage 10
+DisplayMessage 11
+DisplayMessage 12
+DisplayMessage 13
+DisplayMessage 14
+DisplayMessage 15
+DisplayMessage 16
+DisplayMessage 17
+DisplayMessage 18
+DisplayMessage 19
+DisplayMessage 1a
+DisplayMessage 1b
+DisplayMessage 1c
+DisplayMessage 1d
+DisplayMessage 1e
+DisplayMessage 1f
+DisplayMessage 20
+DisplayMessage 21
+DisplayMessage 22
+DisplayMessage 23
+DisplayMessage 24
+DisplayMessage 25
+DisplayMessage 26
+DisplayMessage 27
+DisplayMessage 28
+DisplayMessage 29
+DisplayMessage 2a
+DisplayMessage 2b
+DisplayMessage 2c
+DisplayMessage 2d
+DisplayMessage 2e
+DisplayMessage 2f
+DisplayMessage 30
+DisplayMessage 31
+DisplayMessage 32
+DisplayMessage 33
+DisplayMessage 34
+DisplayMessage 35
+DisplayMessage 36
+Choice 37 02 38 00 39 05
+Nazo6B
+Jump 07 13 01
+Nazo6B
+Jump 07 14 01
+Return2D
+End20
+
+*02
+EndFF
+ScenarioEnd
+
+*00
+` Este es un asunto bastante importante.@
+` El poder de Kotone no es "predecir el futuro", sino "psicokinesis".@
+` Si mi hipótesis es correcta, ella misma ocasiona todas las desgracias que vaticina.@
+` En ese caso, si deja de utilizar su psicokinesis, esas calamidades dejarán de suceder.@
+` Me dirijo hacia el salón de Kotone.
+WaitPage
+LoadBG2 07 0a 0a
+EndTextBlk
+
+*01
+` Llego al salón 1-B.@
+` Kotone...@
+` está ahí.@
+` "Koton--...@ ¡Himekawa!"@
+` Llamo a Kotone.
+ClearScreen 00 00
+FadeBGM
+WaitForFadeBGM
+PauseBGM
+StartBGM 0d
+ChangeCharacter 02 07 09
+` "¿Qué se te ofrece, Hiroyuki?"@
+` Kotone se acerca a mí.@
+` "Hay algo de lo que quiero hablar contigo.@ ¿Vienes?"@
+ChangeCharacter 02 07 0e
+` "Sí..."
+WaitPage
+LoadBG2 09 0a 0a
+EndTextBlk
+
+*02
+` Me llevo a Kotone a un lugar donde no parece haber gente.@
+` "Quería platicar sobre tus poderes."@
+ChangeCharacter 02 07 05
+` "Está bien."@
+` "Creo... que sí eres una esper, Kotone."@
+ChangeCharacter 02 07 05
+` "¿En serio?"@
+` Kotone me mira con tristeza.@
+` "Pero, y esta es sólo mi teoría, no creo que tu habilidad sea la clarividencia."
+WaitPage
+ChangeCharacter 02 07 09
+EndTextBlk
+
+*03
+` "¿Eh...?"@
+` "Me parece que tu poder es la psicokinesis".@
+` "¿Psicokinesis?@ ¿Eso que te permite mover cosas?"@
+` "Sí."@
+` "¿Por qué piensas eso?"@
+` "En primer lugar, cada vez que experimenté algo que predijiste, ocurrió algo raro."@
+` "Ya veo..."@
+` "En especial el accidente de las escaleras.@ En ese momento, algo invisible me tomó del pie."@
+` "¿Algo... invisible?"\
+
+*04
+` "Creí que había sido sólo mi imaginación, pero cuando me caí por segunda vez, me di cuenta de la verdad."@
+` "¿Que yo te había tirado?"@
+` "Ahí está el problema.@ Creo que estás utilizando tus poderes inconscientemente."@
+ChangeCharacter 02 07 05
+` "¿Inconsciente... mente?"@
+` "¿No se te ocurre alguna explicación?"@
+` "En ese momento, yo... vi tu futuro."@
+` Dice Kotone, casi murmurando.@
+` "¿Y qué pasa si la psicokinesis es el medio por el cual haces cumplir el futuro que ves?"
+WaitPage
+ChangeCharacter 02 07 09
+EndTextBlk
+
+*05
+` "¿Quieres decir que todo hasta ahora fue... mi culpa?"@
+` "No, no me refiero a eso.@ Piénsalo como si tu psicokinesis se activara sin que te des cuenta."@
+ChangeCharacter 02 07 05
+` "......"@
+` "¿Puedes ver muy lejos en el futuro, Kotone?"@
+` "No, no puedo."@
+` Kotone niega con la cabeza.\
+
+*06
+` "Sólo puedes ver lo que ocurrirá en los próximos segundos como pasó en mi caso, ¿correcto?"@
+` "... Sí."@
+` "Entonces, los accidentes siempre ocurren sin falta frente a ti.@ Ese es el patrón."@
+` "......"@
+` Ella asiente.@
+` "Yo creo que existe la posibilidad de que realmente seas una esper."@
+` Le cuento lo que leí en el libro sobre poderes sobrenaturales.
+WaitPage
+ChangeCharacter 02 07 01
+EndTextBlk
+
+*07
+` "Ya veo...@ Yo siempre creí que podía ver el futuro,@ y todavía lo creo."@
+` Dice Kotone.@
+` Eso es lo que pensó durante años.@
+` Por más que alguien como yo (que la conozco hace menos de un mes) le diga que abandone su creencia, seguramente sería difícil para ella.@
+` Sin embargo, yo creo que sus poderes psíquicos son su última esperanza.@
+` Si acepto que su poder es la clarividencia, ella va a sufrir durante toda su vida.@
+` Va a pasar toda su vida sola.\
+
+*08
+` Si resulta que ella es una psíquica en vez de un oráculo, la situación cambia.@
+` No puedo pedirle que deje de ver el futuro, pero seguro que puede reprimir conscientemente su psicokinesis.@
+` De esa manera va a poder vivir como una chica normal.@
+` Y para eso, quiero demostrarle que su poder es en realidad psicokinesis.@
+` "Haz una predicción ahora, pero ponte en la cabeza que podría ser psicokinesis.@ De ese modo, quizás podamos descubrir algo."
+WaitPage
+ChangeCharacter 02 07 05
+EndTextBlk
+
+*09
+` "Pero...@ yo no puedo ver el futuro a voluntad..."@
+` "Simplemente provócalo, y si no logras predecirlo, ¡podrás decirle adiós a la vida que llevabas hasta ahora!"@
+` "¿Despedirme de... mi vida...?"@
+` "Vamos a las escaleras."@
+` Me dirijo hacia las escaleras junto a Kotone.
+WaitPage
+LoadBG2 08 0a 0a
+EndTextBlk
+
+*0a
+` Este es el lugar donde le resultará más fácil hacer una predicción: las escaleras.@
+` Las subo mientras Kotone me mira desde abajo.@
+` "Cuando veas lo que va a pasar, ¡avísame!"@
+` "Sí..."@
+` Bajo y subo de las escaleras una y otra vez frente a Kotone.@
+` ......@
+` "Haa...@ Haa...@ ¿Qué tal?@ ¿Crees podés predecir algo?"@
+WaitPage
+ChangeCharacter 02 07 05
+EndTextBlk
+
+*0b
+` "... No lo sé."@
+` Kotone sacude su cabeza a ambos lados.@
+` Mierda, ¿cómo es que no ocurre nada en un momento tan importante?@
+` Supongo que en la vida las cosas nunca salen como uno lo espera.
+` ......@
+` "No puedo más, estoy exhausto..."@
+` Luego de dar unas cuentass vueltas más, finalmente caigo rendido.
+WaitPage
+ChangeCharacter 02 07 06
+EndTextBlk
+
+*0c
+` "No te excedas, por favor."@
+` "No.@ Tengo que hacer todo lo posible."@
+` "......"@
+` "¡Mierda! ¿No hay un lugar del que pueda caer más fácilmente?"@
+` "Sería peligroso que en verdad te cayeras."@
+` Murmura Kotone para sí misma.@
+` ... ¿Peligroso?@
+` Sus palabras encienden la lamparita en mi cabeza.@
+` ¡Ya sé qué lugar tiene la caída más peligrosa!@
+` Me levanto,@
+` "Acompáñame, Kotone."@
+` y comienzo a subir las escaleras.
+WaitPage
+ChangeCharacter 02 ff ff
+EndTextBlk
+
+*0d
+` Llegamos al lugar más alto de la escuela.@
+ChangeCharacter 02 07 09
+` "¿Iremos a la azotea?@ Los profesores dicen que está prohibido entrar ahí..."@
+` Es tal como dice ella.@
+` El alambrado de la azotea tiene un agujero, y nadie puede ingresar hasta que sea reparado.@
+` "Eso ya lo sé.@ Ven, vamos."@
+` Abro la puerta.
+WaitPage
+LoadBG2 41 0a 0a
+EndTextBlk
+
+*0e
+` La puerta se abre sin ofrecer resistencia.@
+` Por más advertencias que haya sobre lo peligroso de un lugar, es un hecho que al menos una persona irá a pesar de todo.@
+` Por más que una puerta esté cerrada con llave, alguien la abrirá.@
+` De inmediato me pongo a buscar el agujero.\
+
+*0f
+` Lo encuentro sin dificultad.@
+` No sé quién lo habrá hecho, pero está limpiamente cortado de modo que una persona pueda pasar sin problemas.@ 
+ChangeCharacter 02 07 09
+` "Detente, Hiroyuki.@ Es peligroso."@
+` "No.@ ¡Voy a hacerlo por ti!"@
+` Paso a través del agujero, y salgo al otro lado del alambrado.\
+
+*10
+LoadPCM 04
+StartPCM 01 00
+` Uuuh...@
+` Mejor no miro hacia abajo.@
+` De inmediato volteo hacia Kotone (eso me da menos miedo).@
+` "¿Y bien?@ ¿Puedes predecir algo?"@
+` Le pregunto.@
+` "Ya fue suficiente.@ ¡En serio podrías caerte!"@
+` Kotone no parece estar pensando en sus predicciones.@
+` ¡Bien!@
+` Le doy la espalda, y doy un paso hacia adelante.
+WaitPage
+WaitPCM
+StartPCM 01 00
+EndTextBlk
+
+*11
+` Es aterrador.@ Siento que seré absorbido por el vacío.@
+` "Por favor vuelve aquí, Hiroyuki."@
+` "D-De ninguna manera."@
+` "Te lo ruego, regresa.@ Es muy peligroso.@ Si algo llegara a pasart--"@
+` Ahí Kotone interrumpe sus palabras, y sin hablar, me transmite su nerviosismo.
+WaitPage
+ChangeCharacter 02 07 02
+EndTextBlk
+
+*12
+` "¡¿En serio... En serio vas a caerte de la azotea?!"@
+` Dice ella en estado de pánico.@
+` Bingo.@ Creo que esa es la predicción.@
+` Me doy la vuelta, y me agarro del alambrado.@
+` "¡¿Viste el futuro, no, Kotone?!"@
+` Le pregunto, y ella asiente con su rostro pálido.@
+` "¡Por favor aléjate de ahí ya mismo!"@
+` "¡Kotone, concéntrate en tu psicokinesis!@ ¡Piensa en que no es clarividencia!"@
+` "¡¡Rápido, Hiroyuki!!"@
+` "¡Ya lo sé!"@
+` Sin importar si es clarividencia o psicokinesis, simplemente tengo que separarme del alambrado.@
+` Me apresuro a tomar distancia del agujer--
+WaitPage
+WaitPCM
+StopPCM
+PauseBGM
+EndTextBlk
+
+*13
+` "¡¿Hiroyuki?!"@
+` Grita Kotone.@
+` ... No puedo moverme.
+WaitPage
+StartBGM 14
+EndTextBlk
+
+*14
+` ¡Mi cuerpo está siendo sostenido por una fuerza invisible!@
+` "¡No puedo moverme, Kotone!@ ¡Mi cuerpo no se mueve!"@
+` La fuerza comienza a estirarme poco a poco hacia atrás.@
+` Sostengo el alambrado con las manos, y la malla metálica se hunde en mi carne.@
+` No creo poder resistir mucho más.@
+` "¡¡Hiroyuki!!"@
+` "¡Usa tu psicokinesis!@ ¡Puedes detenerme con eso!"@
+` "¡......!"@
+` "¡¿Es este mi futuro?! Si yo me caigo aquí, ¡¿quién te ayudará?!"@
+` Mi mano izquierda es arrancada del alambrado.\
+
+*15
+` "Pero... Pero..."@
+` "¡No pierdas contra ti misma!@ ¡¡Si tus poderes le traen desgracias a las personas, también deberían poder hacerlas felices!!"@
+` Mi mano derecha se suelta.@
+` Ya no hay nada que me sostenga.\
+
+*16
+` Como ya no tengo de dónde agarrarme, sucede algo muy simple: mi cuerpo sale volando como si lo hubiera soplado el viento.
+WaitPage
+PauseBGM
+LoadVisualScene a1 00 00
+EndTextBlk
+
+*17
+` Puedo ver el cielo carmesí.@
+` Es un bello ocaso rojo que rara vez tuve la oportunidad ver antes.@
+` "Qué hermoso..."
+` Por alguna extraña razón, decir eso antes de morir me conmueve.@
+` "¡¡HIROYUKIIIIIIIII!!"
+WaitPage
+ClearScreen 00 00
+ClearText
+WhiteOut 03
+LoadBG fe
+ClearScreen 00 00
+Nazo70
+Wait 64
+Nazo72 03
+Wait 64
+LoadVisualScene 00 0b 0b
+EndTextBlk
+
+*18
+` Mi cuerpo está entumecido.@
+` Quizás así se sienta estar muerto.@
+` ¿Me habré quebrado todos los huesos?@
+` ¿Se me habrán desgarrado los órganos?@
+` ¿Quién encontrará mi cadáver primero?@
+` ... Los muertos tienen mucho tiempo para pensar en esas cosas.
+` *Toc*@
+` Mis pies tocan algo.@
+` ¿Qué será?
+WaitPage
+ClearScreen 00 00
+Wait 64
+LoadCharacterAndBg 02 07 0f 41 0b 1f
+EndTextBlk
+
+*19
+` ¿Eh?@
+` Kotone está frente a mí.@
+` "Hiroyuki...@ Me alegro que estés a salvo..."
+WaitPage
+StartBGM 13
+EndTextBlk
+
+*1a
+` "¿Eh?@ ¿A salvo?"@
+` Me apresuro a mirar alrededor, y noto que estoy en la azotea, parado firme con los pies sobre la tierra.@
+` "Hiroyuki, esta es la primera vez... que pude salvar a alguien con mis poderes."@
+` "Kotone...@ ¿Usaste tu psicokinesis?"@
+` "Sí..."@
+` Kotone asiente, y se desvanece como si estuviera a punto de desmayarse.
+WaitPage
+ChangeCharacter 02 ff ff
+EndTextBlk
+
+*1b
+` "¡Cuidado!"@
+` Corro hacia ella y la sostengo en brazos.@
+` "Tengo... muchísimo... sueño... Hiroyuki..."@
+` "Ya veo. Así que estos son los efectos secundarios."@
+` "Por favor...@ déjame descansar un momento..."@
+` Dice Kotone antes de entrar en un confortable sueño.@
+` "Buenas noches."@
+` Todavía abrazando a Kotone, me siento en el suelo.@
+` No lo entiendo muy bien, pero parece que me movió en el aire.@
+` Seguramente es la primera vez en su vida que utiliza tanta energía.
+WaitPage
+FadeBGM
+FadeInBGM 13
+LoadVisualScene 74 00 00
+EndTextBlk
+
+*1c
+` Ya ha pasado bastante tiempo.@
+` El sol se ha puesto tiñendo todo de rojo.@
+` Incluso a mí, y a Kotone.\
+
+*1d
+` Kotone y su lindo rostro descansan en mis brazos.@
+` Su cabello es precioso...@
+` Bañado por el sol del crepúsculo, su largo pelo brilla con un color anaranjado.@
+` Lo toco ligeramente con la mano.@
+` Es igual a una corriente de agua que fluye entre mis manos.\
+
+*1e
+` Observo su rostro fijamente.@
+` Es tan bonita...@
+` Sus bellas pestañas...@
+` El puente perfectamente formado de su nariz...@
+` Sus labios levemente húmedos.@
+` Kotone es tan adorable que quiero abrazarla cada vez que la veo.\
+
+*1f
+` Quiero estar con ella así para siempre.@
+` Sin embargo, no podemos quedarnos en este lugar tanto tiempo.@
+` Sin lugar a dudas se armaría un escándalo si alguien nos descubriera.@
+` No creo poder excusarme diciendo que sólo está durmiendo.@
+` Es un milagro que nadie haya venido hasta ahora.@
+` Tengo que trasladarla hacia otro lugar alejado de la mirada de la gente.@
+` Con Kotone en brazos, le doy la espalda a la azotea.
+WaitPage
+LoadBG2 35 00 00
+EndTextBlk
+
+*20
+` Al final terminé viniendo aquí.@
+` Aunque casi no se siente la presencia de nadie, tampoco puedo vagar con Kotone a cuestas por toda la escuela.@
+` Por eso decidí entrar a mi salón de clases, que tiene la ventaja de la distancia.@
+` Por ahora, para que no la vean desde fuera, la oculto en la sombra del escritorio del profesor.\
+
+*21
+` Kotone aún no despierta.@
+` Ya ha transcurrido una hora, pero todavía no abre los ojos.@
+` Puede que su somnolencia al momento de usar sus poderes se deba a consume mucha energía (¿espiritual?), y aunque siempre hay un retraso entre el efecto y la consecuencia, esta vez fue instantáneo por la cantidad de energía que gastó.@
+` Vuelvo a sentir admiración por ella.@ Se esforzó muchísimo para salvarme.@
+` Pero, ¿qué pasa si no despierta hasta la mañana?\
+
+*22
+` ......\
+
+*23
+` Pasa otra media hora más.@
+` Ya son casi las cinco y media.@
+` A esta hora ya no debe quedar ningún estudiante.@
+` Lo mismo los profesores.@ Salvo los que están ocupadísimos, el resto ya debe haber vuelto a casa.@
+` Pensando en ello, a mí también me da un poco de sueño.@
+` "Fwaaah..."@
+` A este ritmo me iré a dormir...@ o eso pensaba, pero las pestañas de Kotone tiemblan.@
+` "Kotone."@
+` La llamo suavemente, y ella abre los ojos.@
+` "Hiroyuki..."\
+
+*24
+` "¿Debería decirte "buenos días"?"@
+` Le digo, y Kotone se levanta sorprendida.@
+` "¡¿Tanto dormí?!"@
+` Mira alrededor.@
+` "El reloj está por allá."@
+` Le apunto, y Kotone lo observa.@
+` "Dos horas..@ Esta es la primera vez que me pasa..."@
+` Dice, y se apresura a levantarse, pero de inmediato empieza a caminar tambaleándose.@
+` Una vez más, la vuelvo a sostener en brazos.\
+
+*25
+` "Oye, no te fuerces, que todavía estás cansada"@
+` "Perdón..."@
+` "Usa mis brazos todo lo que quieras.@ Te lo dejaré barato."@
+` Kotone suelta una risita ante mi chiste.@
+` "Si insistes, por favor cárgame... un rato más."\
+
+*26
+` "Por cierto... Es la primera vez que te cansas tanto, ¿cierto?"@
+` "Sí...@ Normalmente me duermo 20 o 30 minutos y ya me siento como nueva."@
+` "... Gracias."@
+` "¿Eh?"@
+` Como le agradecí de la nada, Kotone me mira extrañada.\
+
+*27
+` "Gastaste todas tus energías para salvarme."@
+` Kotone baja la mirada,@
+` "Pero... yo fui quien te empujó..."@
+` y dice como si se disculpara.@
+` "Yo tuve la culpa por forzarte a hacerlo."@
+` "Pero..."@
+` "Hasta ahora me has rescatado varias veces de caerme, Quiero agradecer tu esfuerzo."@
+` "... Muchas gracias.@ Te agradezco el doble, de hecho."\
+
+*28
+` "¿Por qué?"@
+` "Por poner todo tu empeño en demostrar que mi poder era la psicokinesis."@
+` "Yo también estaba desesperado.@ Pensaba que si no hacía eso, no sería capaz de salvarte."@
+` "Les causé mucho mal a todos, ¿verdad?@ Tengo que disculparme..."@
+` "No, tú no tuviste la culpa, sino el embrollo que tienes por poder."@
+` "De ser así, eso me vuelve más culpable aún."@
+` "¿En qué sentido?"\
+
+*29
+` Kotone hace silencio un momento, y entonces...@
+` "Este es mi secreto, pero te lo contaré sólo a ti."@
+` "¿Secreto?"@
+` "Así es...@ Yo...@ no soy una humana normal."@
+` "¿Que no eres normal?"@
+` ... Es verdad.@ Utilizar poderes sobrenaturales está bastante lejos de ser normal.\
+
+*2a
+` "¿Sabes lo que es un "haploide"?"@
+` "¿Haploide?@ ¿Tiene que ver con los genes, cromosomas y esas cosas?"@
+` Recuerdo que lo aprendimos en la clase de biología...@
+` "Sí.@ Las personas normales tiene 23 cromosomas maternos y 23 paternos, es decir, 46 en total, pero yo sólo tengo 23."@
+` "No lo entiendo bien.@ ¿Quieres decir que te faltan la mitad?"@
+` Se viene a la mente que un humano con la mitad de genes es un humano "a la mitad".\
+
+*2b
+` "Así es, pero lo importante de eso es que existe la posibilidad de que yo haya nacido únicamente de mi madre."@
+` "¿Eh?@ ¿A qué te refieres?"@
+` La historia se puso complicada de seguir.@
+` "La gente normal es concebida con... uh... el amor entre mamá y papá, ¿cierto?@ Pues yo nací solamente de mi mamá."@
+` "¿O sea que fuiste procreada sólo de una mujer, sin necesidad de un hombre?"@
+` Kotone hace un gran asentimiento.@
+` "Sí, así nací yo."\
+
+*2c
+` "¿Cómo es eso posible?"@
+` ¿Entonces hay muchos niños que nacen sin padre porque fueron concebidos sin tener uno de por medio?@
+` "Dicen que soy la primera humana haploide."@
+` "¿La primera humana?"@
+` "Sí.@ He leído que a veces ocurre en animales."@
+` "Hmm..."@
+` Todo esto suena muy "fuera de este mundo" para mí.@
+` "¿Ahora comprendes por qué no soy una humana común y corriente?"\
+
+*2d
+` "Sí, más o menos."@
+` "Apenas nací, me enviaron a un laboratorio para investigarme."@
+` "Es de esperarse..."@
+` "El resultado de la investigación arrojó que soy, biológicamente, una humana normal."@
+` "Hmm..."@
+` "Pero eso arruinó la relación de mis padres..."\
+
+*2e
+` "Como hombre, creo que lo entiendo."@
+` No me extraña que haya roces en un matrimonio cuando no sabes si tu hijo es realmente tuyo.@
+` "Al final de todo, resulté ser alguien anormal."@
+` "¿Por qué?@ La investigación dijo lo contrario."@
+` "Las personas normales no tienen poderes psíquicos."@
+` "......"@
+` Es cierto.@ Puede que esa sea la razón por la cual Kotone despertó sus poderes.\
+
+*2f
+` "Perdón.@ No quería aburrirte con mi historia..."@
+` "No pasa nada.@ Si naciste con poderes, ¿quién puede culparte?"@
+` "......"@
+` "Lo importante es que ahora ya no vas a predecir desastres y podrás hacer muchos amigos."@
+` "Sí...@ Todo gracias a ti."@
+` "A partir de mañana, serás una nueva Kotone."@
+` "Claro.@ Me esforzaré para rehacer mi vida."@
+` "¡Excelente!@ Podemos dar este caso por cerrado."\
+
+*30
+` "Desde luego."
+` Responde Kotone enérgicamente.@
+` Es la primera vez que la escucho tan animada.@
+` "Qué alivio...@ Todo lo que hice hasta ahora fue para verte de buen humor."@
+` "Eres una persona muy amable, Hiroyuki."@
+` "Sólo soy así contigo, creo."@
+` "......"@
+` Le digo, y ella pone una cara entre feliz e incómoda.@
+` Kotone también se ve linda cuando se sonroja.\
+
+*31
+` Con una sonrisa de oreja a oreja,@
+` "¿Ya puedes pararte?"@
+` le pregunto.@
+` "Ah...@ Claro."@
+` Kotone se pone de pie tímidamente.@
+` Creo que ahora estará bien.@
+` "¿Te sientes bien?"
+` "Ah...@ Sí..."\
+
+*32
+` Yo estoy a punto de salir del salón, pero Kotone no me sigue.@
+` Cuando volteo, ella está agachada en el piso abrazándose a sí misma.@
+` "¿Todavía estás cansada, Kotone?"@
+` Entonces, Kotone niega con la cabeza.@
+` "Tengo frío..."@
+` "¿Frío?"@
+` Corro hacia ella rápidamente.@
+` "......"@
+` Kotone me mira desde abajo con cara de dolor.\
+
+*33
+` "¿Tienes fiebre?"@
+` Pongo una mano en su frente.@
+` "......"@
+` Veamos...| No, no tiene.@
+` "No tienes fiebre."@
+` Le digo, y ella me abraza con fuerza.@
+` "¡E-Ey, Kotone!"@
+` "Por favor quédate así conmigo."@
+` "......"@
+` No sé qué hacer con mis dos manos sueltas.\
+
+*34
+` "Eres muy cálido, Hiroyuki"@
+` "......"@
+` Abrazo suavemente a Kotone con ambas manos.@
+` Siento directamente el calor de su piel debajo de su uniforme.@
+` El confortable aroma de su cabello...@
+` Su respiración, y su pecho que baja y sube en sincronía...@
+` Sus latidos...@
+` Puedo sentirlo todo.\
+
+*35
+` Me doy cuenta de que lo que estuve tocando con las puntas de los dedos era su sostén, y me quedo perplejo.@
+` Como hombre, yo...@
+` "Kotone..."@
+` "Adelante."@
+` "¿Eh...?"@
+` No entiendo a qué se refiere Kotone.@
+` "No me molesta si es contigo."@
+` Ella me abraza aún con más fuerza.@
+` "......"@
+` ¿Acaso Kotone me está dando permiso para...?\
+
+*36
+` "Has sido tan amable conmigo que me gustaría... que me tomaras... entre tus brazos."@
+` Dice Kotone en un tono casi desvanecido.@
+` Aunque no lo veo, sé bien que su rostro está totalmente enrojecido en este momento.@
+` "Como hombre, me pone muy feliz oírte decir eso, Kotone, pero para eso, los dos debemos sentir lo mismo."@
+` "¡Te amo, Hiroyuki!"@
+` "Kotone..."@
+` "¡Al principio creí que me alcanzaría con que fueras mi hermano mayor, pero con el tiempo, me di cuenta de que no te veo así!"\
+
+*37
+` Kotone me acaba de confesar su amor...@
+EndTextBlk
+
+*38
+SetTextOffset 06
+CharacterDrawSpeed 00
+` A. Yo también te amo, Kotone.
+EndTextBlk
+
+*39
+SetTextOffset 06
+CharacterDrawSpeed 00
+` B. No podía dejarte sola.
+EndTextBlk
+TextEnd

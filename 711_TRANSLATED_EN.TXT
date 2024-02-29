@@ -1,0 +1,667 @@
+;;///////////////////////////////////////////////////
+;;Scene translated by Yotsurin - Edited by Saki
+ScenarioStart 0711 0744
+*00
+End20
+
+*01
+SetFlag aa 01
+DisplayMessage 00
+DisplayMessage 01
+DisplayMessage 02
+DisplayMessage 03
+DisplayMessage 04
+DisplayMessage 05
+DisplayMessage 06
+DisplayMessage 07
+DisplayMessage 08
+DisplayMessage 09
+DisplayMessage 0a
+DisplayMessage 0b
+DisplayMessage 0c
+DisplayMessage 0d
+DisplayMessage 0e
+DisplayMessage 0f
+DisplayMessage 10
+DisplayMessage 11
+DisplayMessage 12
+DisplayMessage 13
+DisplayMessage 14
+DisplayMessage 15
+DisplayMessage 16
+DisplayMessage 17
+DisplayMessage 18
+DisplayMessage 19
+DisplayMessage 1a
+DisplayMessage 1b
+DisplayMessage 1c
+DisplayMessage 1d
+DisplayMessage 1e
+DisplayMessage 1f
+DisplayMessage 20
+DisplayMessage 21
+DisplayMessage 22
+DisplayMessage 23
+DisplayMessage 24
+DisplayMessage 25
+DisplayMessage 26
+DisplayMessage 27
+DisplayMessage 28
+DisplayMessage 29
+DisplayMessage 2a
+DisplayMessage 2b
+DisplayMessage 2c
+DisplayMessage 2d
+DisplayMessage 2e
+DisplayMessage 2f
+DisplayMessage 30
+DisplayMessage 31
+DisplayMessage 32
+DisplayMessage 33
+DisplayMessage 34
+DisplayMessage 35
+DisplayMessage 36
+Choice 37 02 38 00 39 05
+Nazo6B
+Jump 07 13 01
+Nazo6B
+Jump 07 14 01
+Return2D
+End20
+
+*02
+EndFF
+ScenarioEnd
+
+*00
+` This is quite a crucial revelation.@
+` Kotone's ESP is not actually foreboding, but rather, it is telekinesis.@
+` If my prediction is correct, it would mean that all of the misfortune she was predicting was actually caused by her.@
+` And if that's the case, if she avoids using her telekinesis at all, the incidents should stop occuring.@
+` I head towards her classroom.
+WaitPage
+LoadBG2 07 0a 0a
+EndTextBlk
+
+*01
+` I'm in front of classroom 1-B.@
+` Kotone is...@
+` here.@
+` "Koton--...@ Himekawa!"@
+` I call out to Kotone.
+ClearScreen 00 00
+FadeBGM
+WaitForFadeBGM
+PauseBGM
+StartBGM 0d
+ChangeCharacter 02 07 09
+` "What is it, Hiroyuki?"@
+` Kotone approaches me.@
+` "There's something I want to discuss with you.@ Can you come with me?"@
+ChangeCharacter 02 07 0e
+` "Okay..."
+WaitPage
+LoadBG2 09 0a 0a
+EndTextBlk
+
+*02
+` I take Kotone with me to a place without people.@
+` "Actually...@ Well, it's about your ESP."@
+ChangeCharacter 02 07 05
+` "Go on..."@
+` "I think you are an ESP afterall, Kotone."@
+ChangeCharacter 02 07 05
+` "Is that so?"@
+` Kotone shoots me a desolate glance.@
+` "However (and this is just a hypothesis of mine) I do not think that you have the ability to forebode."
+WaitPage
+ChangeCharacter 02 07 09
+EndTextBlk
+
+*03
+` "Huh...?"@
+` "In other words, I'm wondering if you maybe possess telekinetic abilities instead."@
+` "Telekinesis?@ The ability to move objects?"@
+` "Yup."@
+` "And why do you think that?"@
+` "First off, having experienced your foreboding, I've come to notice something mysterious about them."@
+` "Oh..."@
+` "In particular, that incident in the stairwell.@ At that time I'm certain something invisible grabbed my foot."@
+` "Something... invisible?"\
+
+*04
+` "The first time around I shrugged it off as my imagination, but the second time was enough to make me notice it for real."@
+` "So it was me who tripped you?"@
+` "And there's your problem.@ I'm thinking that you are unconsciously using your ESP."@
+ChangeCharacter 02 07 05
+` "Unconsciously...?"@
+` "Does that word ring a bell?"@
+` "Actually, I saw your... future."@
+` Kotone mutters.@
+` "Okay, let's just say, for the sake of argument, that you can see the future.@ If that's the case, what if you're changing the events in the future you see THROUGH telekinesis?"
+WaitPage
+ChangeCharacter 02 07 09
+EndTextBlk
+
+*05
+` "So everything that's happened up to now is... my fault?"@
+` "No, that's not what I'm getting at.@ You should think of it like you were UNKNOWINGLY activating your telekinesis."@
+ChangeCharacter 02 07 05
+` "......"@
+` "Kotone, have you ever seen the distant future?"@
+` "No, I haven't."@
+` Kotone shakes her head.\
+
+*06
+` "So, just like my stairwell incident, you can only see the near future, right?"@
+` "... Yes."@
+` "That means misfortune will no doubt happen right in front of you time and time again, am I correct?"@
+` "......"@
+` She nods.@
+` "I think there's a genuine possibility that you're a telekineticist."@
+` I tell Kotone about what I learned in that ESP book I had been studying earlier.
+WaitPage
+ChangeCharacter 02 07 01
+EndTextBlk
+
+*07
+` "I see...@ This entire time I thought I had been able to see the future."@
+` Says Kotone.@
+` She's believed this for years at this point.@
+` Being told to let go of your old beliefs must be hard (especially by a guy like me whom she hasn't even known for a month).@
+` However, trying to prove her telekinesis is my last hope.@
+` If I just accept that she has the ability to forebode, she will remain unhappy and alone forever.\
+
+*08
+` If it turns out not to be foreboding, but telekinesis, then her situation will change radically.@
+` It's probably useless to order her not to see the future.@ However, she should be able to become aware of it and just avoid using it at all.@
+` If she can manage that, she could live as a normal girl.@
+` So, for those reasons, I want to prove that Kotone's ability is actually telekinesis.@
+` "Make a prediciton now, but when you do, just be AWARE that it could be telekinesis.@ Perhaps then you might learn to control it."
+WaitPage
+ChangeCharacter 02 07 05
+EndTextBlk
+
+*09
+` "But...@ I can't just make predictions on my own..."@
+` "Keep trying until your prediction happens, and if it doesn't end happening as you predicted, you can say farewell to the lifestyle you've been living up to now!"@
+` "My lifestyle...?"@
+` "C'mon, let's go to the stairwell."@
+` Kotone and I head towards the stairwell.
+WaitPage
+LoadBG2 08 0a 0a
+EndTextBlk
+
+*0a
+` The easiest place to trigger her foreboding is the stairwell.@
+` Kotone is watching me from below as I walk up the stairs.@
+` "When you feel like something is about to happen, tell me right away!"@
+` "Okay..."@
+` I'm ascending and descending the stairs over and over in front of Kotone.@
+` ......@
+` "Huff...@ Huff...@ Well?@ Do you feel like something will occur soon?"@
+WaitPage
+ChangeCharacter 02 07 05
+EndTextBlk
+
+*0b
+` "... I don't know."@
+` Kotone says shaking her head.@
+` Damn it, why is not happening NOW of all times?!@
+` I suppose life doesn't always favor your convenience.@
+` ......@
+` "It's no use, I'm tired..."@
+` I ultimately give up after a few more rounds going up and down the stairs.
+WaitPage
+ChangeCharacter 02 07 06
+EndTextBlk
+
+*0c
+` "Please don't tire yourself out over this."@
+` "No.@ I've gotta do everything I can to prove this to you."@
+` "......"@
+` "Shit!@ Is there not somewhere else where I could fall even higher from?"@
+` "That'd be dangerous...@ You could hurt yourself if you really do fall."@
+` Kotone mutters quietly.@
+` ... Dangerous?@
+` Her words suddenly light a bulb over my head.@
+` A place that's dangerous and where you could fall from!@
+` I stand up...@
+` "This way, Kotone."@
+` and start walking up the stairs.
+WaitPage
+ChangeCharacter 02 ff ff
+EndTextBlk
+
+*0d
+` We arrive at the very top.@
+ChangeCharacter 02 07 09
+` "Are we going to the rooftop?@ The teachers say going there is forbidden..."@
+` Just as she said, the rooftop is indeed a "no trespassing" place.@
+` There's a hole in the fence on the rooftop, so until that's fixed, going there is strictly prohibited.@
+` "Yeah, I know.@ Anyway, c'mon."@
+` I open the door.
+WaitPage
+LoadBG2 41 0a 0a
+EndTextBlk
+
+*0e
+` The door opens with little resistance.@
+` It doesn't matter if you tell people not to go because it's dangerous; in the end, someone will still go ignoring all warnings.@
+` And even if you lock the door, someone will still get it open somehow.@
+` I head straight ahead and look for the hole in question.\
+
+*0f
+` I find the hole easily.@
+` I haven't the slightest clue as to who did this, but the hole is big enough for a person to pass through.@ 
+ChangeCharacter 02 07 09
+` "Stop, Hiroyuki.@ This is too dangerous."@
+` "No!@ I'm doing this for you!"@
+` I pass through the hole in the fence and come out on the other side.\
+
+*10
+LoadPCM 04
+StartPCM 01 00
+` Whoa...@
+` Okay, don't look down...@
+` I immediately look towards Kotone (far less scary than looking down).@
+` "Well?@ Do you feel like anything is going to happen now?"@
+` I ask.@
+` "Please, just stop it already!@ It's too dangerous!"@
+` She doesn't seem to have foreboding on her mind now.@
+` Alright!@
+` I turn my back towards her and take a step forward.
+WaitPage
+WaitPCM
+StartPCM 01 00
+EndTextBlk
+
+*11
+` It's so scary that it feels like you're about to be sucked up.@
+` "Please, Hiroyuki, come back."@
+` "N-Nope.@ Not happening."@
+` "Please, just come back...@ If you don't get out of there you're going to get hurt.@ If something happened to you because you're trying to force--"@
+` Kotone's words come to a halt; in their place, a sense of unease begins to take over.
+WaitPage
+ChangeCharacter 02 07 02
+EndTextBlk
+
+*12
+` "Hiroyuki... You're going to... from the roof...?!"@
+` She says, now frightened.@
+` Perfect.@ This is probably her foreboding.@
+` I turn around and grab the fence.@
+` "Was that your foreboding telling you something?!"@
+` She nods her head, but she's now become pale.@
+` "Please, I'm begging you!@ Get out from there now!"@
+` "Kotone, concentrate on your telekinesis!@ Remember that it's not foreboding!"@
+` "Quick, Hiroyuki!!"@
+` "Okay, okay!"@
+` Foreboding, telekinesis, whatever it is, I should get out of here first.@
+` I rush to come back out through the hole, when...
+WaitPage
+WaitPCM
+StopPCM
+PauseBGM
+EndTextBlk
+
+*13
+` "Hiroyuki?!"@
+` Screams Kotone.@
+` ... I can't move.
+WaitPage
+StartBGM 14
+EndTextBlk
+
+*14
+` My entire body is being held down by some invisible power!@
+` "Kotone!@ I can't move!@ My body's not moving!"@
+` This time, my body starts to slowly be dragged backwards.@
+` Clinging to the fence, I begin to dig into the mesh wiring with my hands.@
+` I can't hold on much longer.@
+` "Hiroyuki!!"@
+` "Your telekinesis!@ If it really is telekinesis you should be able to stop this!"@
+` "......!"@
+` "Is this my future?!@ If this keeps up and I fall, who's going to save you?!"@
+` My left hand is ripped off the fence.\
+
+*15
+` "But...@ But..."@
+` "Don't give in!@ If your ESP can make people unhappy, it should also be able to bring them happiness too!"@
+` Now my right hand gets separated from the fence...@
+` leaving me literally nothing left to support me.\
+
+*16
+` And what happens after I lose any support I had? Simple: My body soars like the blowing wind.
+WaitPage
+PauseBGM
+LoadVisualScene a1 00 00
+EndTextBlk
+
+*17
+` I can see the reddish sky.@
+` It's the most beautiful sunset I've ever seen.@
+` "How beautiful..."
+` I'm on the verge of death, and yet I feel oddly moved.@
+` "HIROYUKIIIIIIIII!!"
+WaitPage
+ClearScreen 00 00
+ClearText
+WhiteOut 03
+LoadBG fe
+ClearScreen 00 00
+Nazo70
+Wait 64
+Nazo72 03
+Wait 64
+LoadVisualScene 00 0b 0b
+EndTextBlk
+
+*18
+` My body is numb.@
+` Maybe this is how death feels like.@
+` Will all the bones in my body break?@
+` Will my organs burst?@
+` Who will be the first to find my dead body?@
+` ... It seems dead people have got plenty of time to think.@
+` *Thud*@
+` I can feel my feet touching something.@
+` Huh?
+WaitPage
+ClearScreen 00 00
+Wait 64
+LoadCharacterAndBg 02 07 0f 41 0b 1f
+EndTextBlk
+
+*19
+` What?@
+` Kotone is right in front of me.@
+` "Hiroyuki...@ I'm so glad you're safe..."
+WaitPage
+StartBGM 13
+EndTextBlk
+
+*1a
+` "Huh?@ I'm safe?"@
+` When I frantically look around me, I realize I'm back on the roof, my feet are on the ground and I'm standing normally.@
+` "Hiroyuki, this is the first time I've...@ I've been able to use my ESP to help someone."@
+` "Kotone...@ Did you use your telekinesis?"@
+` "Yes..."@
+` After nodding her head, she suddenly seems like she's about to fall.
+WaitPage
+ChangeCharacter 02 ff ff
+EndTextBlk
+
+*1b
+` "Look out!"@
+` I rush to catch her in my arms.@
+` "I'm... so... sleepy... Hiroyuki..."@
+` "Is that so?@ Maybe it's the after affect you mentioned before."@
+` "Please...@ Just let me rest a bit..."@
+` Kotone begins to comfortably snooze.@
+` "Goodnight, Kotone."@
+` Still holding onto her, I sit down.@
+` I don't quite get it, but she really moved me in the air all by herself.@
+` I guess she used an amount of energy that was far beyond anything she had spent before.
+WaitPage
+FadeBGM
+FadeInBGM 13
+LoadVisualScene 74 00 00
+EndTextBlk
+
+*1c
+` A fair amount of time has passed now.@
+` The sun is setting and everything around us has become red tinted.@
+` Myself, and Kotone as well.\
+
+*1d
+` Kotone, with her cute face, is sleeping in my arms.@
+` She has such a beautiful hair...@
+` Kotone's long hair looks like it's sparkling orange while basking in the sunset.@
+` I give it a gentle brush with my hand.@
+` Her flowing hair spills out of my hands like water.\
+
+*1e
+` I gaze at her face intently.@
+` She's so cute...@
+` Her eyelashes as well...@
+` Her nicely shaped nasal line...@
+` Her slightly wet lips...@
+` She's so cute that you just want to hug her when you look at her.\
+
+*1f
+` I wish I could stay like this forever.@
+` However, I can't quite afford to do that.@
+` If we are seen by someone up here, it would certainly be cause for a commotion of some sort.@
+` Even if I say that she's just sleeping, there's no way someone is going to believe that.@
+` It's a miracle that nobody has even come here by now.@
+` We gotta move somewhere where we'll be less visible.@
+` I leave the rooftop, still holding Kotone.
+WaitPage
+LoadBG2 35 00 00
+EndTextBlk
+
+*20
+` Ultimately we end up here.@
+` Although there's almost no sign of anyone here, I can't just wander around the school with Kotone in my arms.@
+` So, for that reason, we've come here to my distant classroom.@
+` We hide behind the teachers desk so as to not be seen.\
+
+*21
+` Kotone still isn't awake.@
+` An hour has passed already and she's not waking up.@
+` Despite there's usually a time lag between her actions and her exhaustion, this time she became sleepy as soon as she used her powers.@ It might be because it takes a lot of energy (mental strength, maybe?) as I surmised before.@
+` I'm once again impressed.@ She did her best and saved me.@
+` That said, at this rate she'll be sleeping until morning.\
+
+*22
+` ......\
+
+*23
+` Another 30 minutes pass.@
+` It's now close to 5 P.M.@
+` There should be next to nobody here at this hour.@
+` Except teachers and considerably busy students, everyone would have gone home by now.@
+` As I think about this, I somehow start to become sleepy myself.@
+` "Fwaaah..."@
+` At this rate I'm wondering if I should sleep as well...@ but then, Kotone's eyelashes twitch.@
+` "Kotone..."@
+` When I gently call out to her, her eyes open.@
+` "Hiroyuki..."\
+
+*24
+` "Should I say "Good morning"?"@
+` Surprised, Kotone gets up.@
+` "Did I really sleep for that long?!"@
+` She starts frantically looking around.@
+` "The clock is over there."@
+` Kotone looks to the clock that I'm pointing at.@
+` "Two hours..@ That's a first..."@
+` She rushes to get up, but soon after staggers and I catch her in my arms once again.\
+
+*25
+` "Whoa, whoa, you still need to rest."@
+` "Sorry..."@
+` "You can use my arms for as long as you want.@ I'll even make a discount for you."@
+` Kotone snickers at my joke.@
+` "Just a bit longer...@ Please..."\
+
+*26
+` "By the way...@ Is this the first time you're this tired after using your ESP?"@
+` "Yes...@ Usually, if I rest for 20 to 30 minutes I feel fine, though."@
+` "... Thank you."@
+` "Huh?"@
+` Kotone looks at me confused as I thank her.\
+
+*27
+` "You saved me.@ You really pushed yourself hard to do it too."@
+` Kotone casts down her eyes,@
+` "But...@ I was the one to push you..."@
+` She says apologetically.@
+` "It was on me.@ I made myself fall on purpose."@
+` "But..."@
+` "You're always saving me from falling for good, so I really appreciate that."@
+` "... Thank you.@ Thank you so, so, so, much..."\
+
+*28
+` "Huh?@ Why?"@
+` "For risking yourself to prove to me that my real power is telekinesis."@
+` "Yeah, I was desperate back then.@ I thought that if I didn't do that, I wouldn't be able to save you."@
+` "I've been doing awful things to everyone this whole time...@ I need to apologize..."@
+` "I told you, it's not your fault.@ It's all because of that pesky, complex ESP power."@
+` "But, if that's the case, that makes it all the more my fault."@
+` "Why's that?"\
+
+*29
+` Kotone stays silent for a moment and proceeds to say:@
+` "It's a secret, but I think I feel comfortable telling it to you."@
+` "A secret?"@
+` "Yes...@ I'm...@ I'm not an ordinary human."@
+` "That you're not ordinary?"@
+` ... Well, someone who uses ESP is certainly far from normal.\
+
+*2a
+` "Do you know about "haploid"?"@
+` "Haploid?@ That has to do with chromosomes and genetics, right?"@
+` I have a memory of learning about this stuff in biology class...@
+` "Yes.@ A person normally gets 23 chromosomes each from their mother and father, totalling up to 46 chromosomes overall, but I only have 23 chromosomes."@
+` "I don't really get it.@ Does it mean you're lacking half your chromosomes?"@
+` If you've got half the normal amount of chromosomes, wouldn't that make you half human?\
+
+*2b
+` "That's correct, but the important thing to note here is that I could have been born from just my mother alone."@
+` "Huh?@ What does that even mean?"@
+` This discussion takes a turn for the complex.@
+` "Normal people are born from the...@ love of their parents, right?@ I, on the other hand, was born just from my mother."@
+` "So that means a child can be conceived only from their mother without the involvement of a male?"@
+` Kotone gives a firm nod.@
+` "Yes, that child is me."\
+
+*2c
+` "But...@ is that even possible?"@
+` A child being born without any male involvement...@ Is that why there are so many fatherless children in the world?@
+` "It would appear as though I'm the first haploid among humans."@
+` "Among humans?"@
+` "Yes.@ It has apparently occured from time to time with animals."@
+` "Hmm..."@
+` This strikes me as a little too outworldish.@
+` "Do you understand now why I'm not a normal human?"\
+
+*2d
+` "Y-Yeah, more or less."@
+` "As soon as I was born, I was brought to a research facility and examined."@
+` "Well, I guess that's to be expected."@
+` "And the result of the examination determined that biologically I am human."@
+` "Hmm..."@
+` "However, due to this, the relationship between my parents began to deteriorate..."\
+
+*2e
+` "As a guy I feel like I can understand why."@
+` Your child is born, but you have no way of telling if it's yours or not...@ I get that it would be a strain between husband and wife.@
+` "Ultimately, I'm not a normal human."@
+` "Why?@ The examination concluded that you are human though."@
+` "But normal humans can't use ESP..."@
+` "......"@
+` Indeed...@ This haploid thing could be what awakened Kotone's ESP.\
+
+*2f
+` "I'm sorry.@ I'm forcing you to listen to this boring story..."@
+` "It's fine.@ You were born with ESP powers, so who can blame you for using them?"@
+` "......"@
+` "More importantly, your predictions of misfortune are now gone.@ This should allow you to make tons of friends."@
+` "Yes...@ All thanks to you, Hiroyuki."@
+` "From tomorow you're gonna be a new Kotone."@
+` "Yes.@ I will do my best to start fresh."@
+` "Excellent!@ All is well then."\
+
+*30
+` "Of course!"@
+` Kotone responds energetically.@
+` This is the first time I've heard her speak with a tone like that.@
+` "What a relief...@ I've been working hard because I want to see you in a more cheerful mood."@
+` "That's so kind of you, Hiroyuki."@
+` "Maybe just towards you, Kotone."@
+` "......"@
+` When I say that, Kotone's expression juggles between happy and troubled.@
+` She's so cute when she's embarrassed, too...\
+
+*31
+` I smile happily at her.@
+` "Well, are you gonna get up?"@
+` I ask.@
+` "Oh...@ Sure."@
+` Kotone lifts herself up cautiously.@
+` Seems like she'll be fine this time.@
+` "You good?"
+` "Yes...@ I'm okay..."\
+
+*32
+` However, when I exit the classroom, Kotone doesn't follow me.@
+` I turn to look back, and she's curled herslef up into a ball and crouching on the floor.@
+` "Are you still tired, Kotone?"@
+` I ask her, and she shakes her head.@
+` "I'm cold..."@
+` "Cold?"@
+` I rush to Kotone.@
+` "......"@
+` She looks up at me in pain.\
+
+*33
+` "Do you have a fever?"@
+` I put my hands on her forehead.@
+` "......"@
+` No...| that's not it.@
+` "You forehead doesn't feel hot..."@
+` As I say this, Kotone leans in and hugs me firmly.@
+` "H-Hey, Kotone!"@
+` "Please, stay with me..."@
+` "......"@
+` I have no clue what to do with my hands.\
+
+*34
+` "You're so warm, Hiroyuki"@
+` "......"@
+` I hug Kotone's back with both of my hands.@
+` I feel the warmth of her skin under her uniform.@
+` The pleasant scent of her hair...@
+` The up and down movement of her chest with her every breath...@
+` Her heartbeating...@
+` I can feel it all.\
+
+*35
+` When I realize that my fingertips have been touching her bra, a strange feeling strikes me.@
+` As a male, I...@
+` "Kotone..."@
+` "Go ahead..."@
+` "Huh...?"@
+` I don't understand what she's hinting at.@
+` "I'm okay with you."@
+` She's hugging my arm firmly.@
+` "......"@
+` Kotone, you mean that I can...?\
+
+*36
+` "You've been so kind to me...@ Go ahead, hold me in your arms."@
+` Kotone says in a quiet tone.@
+` Although I can't see it, I can tell her face is bright red.@
+` "Kotone, as a guy that's an amazing thing to hear, but, if our feelings aren't the same..."@
+` "I love you, Hiroyuki!"@
+` "Kotone..."@
+` "At first I thought it would be fine to think of you like an older brother, but I've gradually realized that my feelings have changed!"\
+
+*37
+` Kotone has confessed her love for me...@
+EndTextBlk
+
+*38
+SetTextOffset 06
+CharacterDrawSpeed 00
+` A. I love you too, Kotone.
+EndTextBlk
+
+*39
+SetTextOffset 06
+CharacterDrawSpeed 00
+` B. I couldn't leave you all alone while you were suffering.
+EndTextBlk
+TextEnd
